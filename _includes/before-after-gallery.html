@@ -1,0 +1,13 @@
+<section class="gallery" aria-labelledby="gallery-heading">
+  <div class="container">
+    <h2 id="gallery-heading">Recent Clearances: Before & After</h2>
+    <div class="gallery-grid">
+      {% for pair in site.data.image_sets.pairs %}
+      <div class="comparison-pair">
+        <div class="image-box"><span class="img-label">Before</span><img src="/assets/images/{{ pair.before.file }}" alt="{{ pair.before.alt }}" width="480" height="300" loading="lazy"></div>
+        <div class="image-box"><span class="img-label">After</span><img src="/assets/images/{{ pair.after.file }}" alt="{{ pair.after.alt }}" width="480" height="300" loading="lazy"></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

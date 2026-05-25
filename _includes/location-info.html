@@ -1,0 +1,29 @@
+{% assign desc = site.data.location_descriptions[include.loc.slug] %}
+{% assign nearby_slug = include.loc.name | downcase %}
+{% assign nearby_data = site.data.nearby.locations | where: "slug", nearby_slug | first %}
+
+<section class="loc-info">
+  <div class="loc-info__inner">
+
+    {% if desc %}
+    <div class="loc-info__description">
+      <h2>House Clearance in {{ include.loc.name }}-{{ include.loc.postcode }}</h2>
+      <p>{{ desc.description }}</p>
+    </div>
+    {% endif %}
+
+    {% if nearby_data and nearby_data.nearby.size > 0 %}
+    <div class="loc-info__nearby">
+      <h3>We Also Cover Nearby Areas</h3>
+      <div class="loc-info__nearby-grid">
+        {% for town in nearby_data.nearby %}
+        <a href="/services/{{ include.loc.service }}/{{ town | slugify }}/" class="loc-info__nearby-link">
+          {{ town }}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

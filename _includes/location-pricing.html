@@ -1,0 +1,26 @@
+{% assign pricing = site.data.pricing | where: "service", include.loc.service | first %}
+{% if pricing %}
+<section class="loc-pricing">
+  <div class="loc-pricing__inner">
+    <h2>{{ pricing.label }} Prices in {{ include.loc.name }}-{{ include.loc.postcode }}</h2>
+    <p class="loc-pricing__intro">Transparent, fair pricing for every clearance in {{ include.loc.name }} and the surrounding {{ include.loc.county }} area. All prices are guides — get a free no-obligation quote from Mike for your exact job.</p>
+    <div class="loc-pricing__table">
+      <div class="loc-pricing__header">
+        <span>Job Type</span>
+        <span>Guide Price</span>
+      </div>
+      {% for row in pricing.rows %}
+      <div class="loc-pricing__row">
+        <span>{{ row.type }}</span>
+        <span class="loc-pricing__price">{{ row.price }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="loc-pricing__note">{{ pricing.note }}</p>
+    <div class="loc-pricing__btns">
+      <a href="tel:{{ site.phone }}" class="btn btn-primary">Get a Free Quote</a>
+      <a href="https://wa.me/{{ site.whatsapp }}" class="btn btn-whatsapp">WhatsApp Mike</a>
+    </div>
+  </div>
+</section>
+{% endif %}

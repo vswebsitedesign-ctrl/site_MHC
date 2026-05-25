@@ -1,0 +1,41 @@
+{% assign devon_towns = site.data.towns | where: "county", "Devon" %}
+{% assign cornwall_towns = site.data.towns | where: "county", "Cornwall" %}
+{% assign somerset_towns = site.data.towns | where: "county", "Somerset" %}
+
+<section class="location-finder">
+  <div class="location-finder__inner">
+    <h2 class="location-finder__heading">Areas We Cover</h2>
+    <p class="location-finder__intro">Mike's House Clearance operates across Devon, Cornwall, and Somerset. Select your county to find your area.</p>
+    <div class="location-finder__counties">
+
+      <details class="location-county">
+        <summary class="location-county__toggle">Devon ({{ devon_towns | size }} areas)</summary>
+        <ul class="location-list">
+          {% for town in devon_towns %}
+          <li>{{ town.name }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+
+      <details class="location-county">
+        <summary class="location-county__toggle">Cornwall ({{ cornwall_towns | size }} areas)</summary>
+        <ul class="location-list">
+          {% for town in cornwall_towns %}
+          <li>{{ town.name }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+
+      <details class="location-county">
+        <summary class="location-county__toggle">Somerset ({{ somerset_towns | size }} areas)</summary>
+        <ul class="location-list">
+          {% for town in somerset_towns %}
+          <li>{{ town.name }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+
+    </div>
+    <p class="location-finder__footnote">Don't see your town? <a href="/contact-us/">Contact Mike</a> — he covers the whole region.</p>
+  </div>
+</section>

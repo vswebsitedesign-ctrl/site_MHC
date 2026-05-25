@@ -1,0 +1,19 @@
+<section class="loc-hero-content">
+  <div class="loc-hero-content__text">
+    <h2>House Clearance Specialists in {{ include.loc.name }}-{{ include.loc.postcode }}</h2>
+    <p>Mike's House Clearance delivers reliable, respectful, and fully licensed house clearance services throughout {{ include.loc.name }}-{{ include.loc.postcode }}. We support homeowners, landlords, and executors with a smooth, stress-free experience.</p>
+    <ul class="loc-hero-content__benefits">
+      <li>Registered Environment Agency Waste Carrier</li>
+      <li>Fully Insured and Experienced Team</li>
+      <li>Trusted 5-Star Rated Local Business</li>
+      <li>Free Quotes With No Obligation</li>
+    </ul>
+    <div class="loc-hero-content__btns">
+      <a href="tel:{{ site.phone }}" class="btn-primary">Call Mike Today</a>
+      <a href="/contact-us/" class="btn-primary">Get a Free Quote</a>
+    </div>
+  </div>
+  <div class="loc-hero-content__image">
+    <img src="{{ '/assets/images/hero-image.webp' | relative_url }}" alt="Mike's House Clearance team working in {{ include.loc.name }}-{{ include.loc.postcode }}" loading="lazy">
+  </div>
+</section>

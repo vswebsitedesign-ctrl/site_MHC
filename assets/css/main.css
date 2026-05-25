@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;line-height:1.5}.container{max-width:1200px;margin:0 auto;padding:0 20px}.btn{display:inline-block;padding:12px 24px;background:#124F1B;color:#fff;text-decoration:none;border-radius:8px}.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}

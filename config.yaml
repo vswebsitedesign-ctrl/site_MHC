@@ -1,0 +1,27 @@
+baseurl: ''
+brand_color: '#124F1B'
+collections:
+  locations:
+    output: true
+    permalink: /house-clearance/:slug/
+description: Fast, professional, and eco-friendly property clearance services across
+  Devon, Cornwall, and Somerset.
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- reports/
+- MHC_CTR_Report.json
+include:
+- _pages
+lang: en-GB
+markdown: kramdown
+permalink: pretty
+phone: 07347300798
+plugins:
+- jekyll-sitemap
+primary_phone: 07931 476 744
+site_name: MHC
+title: Mike's House Clearance
+url: https://mikes-house-clearance.co.uk
+whatsapp: '447347300798'

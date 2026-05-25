@@ -1,0 +1,14 @@
+# Build output
+build/
+dist_staging/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets (if any)
+*.env

@@ -1,0 +1,22 @@
+<section class="loc-more-services">
+  <div class="loc-more-services__inner">
+    <h3>More Local Clearance &amp; Removal Services in {{ include.loc.name }}-{{ include.loc.postcode }}</h3>
+    <p>If you need something more specific, Mike's House Clearance also provides the following trusted local services across {{ include.loc.name }}-{{ include.loc.postcode }}.</p>
+    <div class="loc-more-services__grid">
+      {% for service in site.data.services %}
+      <a href="/services/{{ service.slug }}/{{ include.loc.slug }}/" class="btn-primary">
+        {{ service.title }} in {{ include.loc.name }}-{{ include.loc.postcode }}
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="loc-more-services__cta">
+      <h3>Need Fast, Reliable Clearance in {{ include.loc.name }}-{{ include.loc.postcode }}?</h3>
+      <p>Speak directly with Mike for honest advice, fast pricing, and a stress-free clearance service carried out with care and respect in {{ include.loc.name }}-{{ include.loc.postcode }}.</p>
+      <div class="loc-more-services__cta-btns">
+        <a href="tel:{{ site.phone }}" class="btn-cta-white">Call Mike Now</a>
+        <a href="/contact-us/" class="btn-cta-outline">Request a Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>

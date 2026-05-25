@@ -1,0 +1,19 @@
+<section class="loc-gallery">
+  <h2 class="loc-gallery__title">House Clearance Results in {{ include.loc.name }}-{{ include.loc.postcode }} – Before &amp; After</h2>
+  <div class="loc-gallery__grid">
+    {% assign pair_id = include.loc.image_pairs | first %}
+    {% assign pair = site.data.image_sets | where: "id", pair_id | first %}
+    {% if pair %}
+    <div class="loc-gallery__pair">
+      <div class="loc-gallery__box">
+        <span class="loc-gallery__label">Before</span>
+        <img src="{{ '/assets/images/' | append: pair.before | relative_url }}" alt="{{ pair.label }} in {{ include.loc.name }}-{{ include.loc.postcode }} before" loading="lazy">
+      </div>
+      <div class="loc-gallery__box">
+        <span class="loc-gallery__label">After</span>
+        <img src="{{ '/assets/images/' | append: pair.after | relative_url }}" alt="{{ pair.label }} in {{ include.loc.name }}-{{ include.loc.postcode }} after" loading="lazy">
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>

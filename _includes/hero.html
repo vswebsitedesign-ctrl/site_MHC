@@ -1,0 +1,75 @@
+<section class="hero-banner" aria-label="Hero">
+  <div class="hero-inner">
+    <h1>Mike's House Clearance</h1>
+    <p class="hero-tagline"><strong>Don't Worry! Mike Will Sort it Out!</strong></p>
+    <div class="hero-cta-buttons">
+      <a href="/contact-us/" class="btn btn-outline">Contact Mike</a>
+      <a href="tel:{{ site.phone }}" class="btn btn-outline" aria-label="Ring Mike on {{ site.phone }}">Ring Mike</a>
+    </div>
+  </div>
+
+  <div class="whatsapp-block">
+    <p class="whatsapp-instruction"><strong>Need a quick quote?</strong> Send Mike a few photos of the items you need cleared via WhatsApp for a fast, free estimate.</p>
+    <a href="https://wa.me/{{ site.whatsapp }}" class="btn-whatsapp">WhatsApp Photos to Mike</a>
+    <p class="privacy-promise">🔒 Mike guarantees 100% privacy. Photos are used strictly for quoting and never shared.</p>
+  </div>
+</section>
+
+{% include top-banner.html %}
+<section class="trust-banner" aria-label="Trust signals">
+  <div class="trust-grid">
+    <div class="trust-item">
+      <span class="trust-icon" aria-hidden="true">🚚</span>
+      <h2>House Clearance</h2>
+      <p>Professional clearance for homes, garages, and commercial properties.</p>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon" aria-hidden="true">♻️</span>
+      <h2>Licensed Waste Carrier</h2>
+      <p>Environment Agency Registered. We recycle and dispose responsibly.</p>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon" aria-hidden="true">⭐</span>
+      <h2>Trusted &amp; Local</h2>
+      <p>Highly rated service known for being reliable, fast, and friendly.</p>
+    </div>
+  </div>
+  <div class="trust-buttons">
+    <a href="tel:{{ site.phone }}" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg>
+      Ring Mike: {{ site.phone }}
+    </a>
+    <a href="/contact-us/" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      Contact Mike
+    </a>
+  </div>
+</section>
+
+<section class="hero-content" aria-label="About Mike's service">
+  <div class="hero-content-inner">
+    <div class="hero-text">
+      <h2>Reliable &amp; Professional House Clearance Services</h2>
+      <p>Welcome to Mike's House Clearance. We provide a stress-free, compassionate, and fully licensed service for homeowners, landlords, and executors across Devon, Cornwall, and Somerset.</p>
+      <ul class="benefits-list">
+        <li>Environment Agency Licensed Waste Carrier</li>
+        <li>Fully Insured &amp; Professional Team</li>
+        <li>5-Star Rated Local Service</li>
+        <li>Free, No-Obligation Quotes</li>
+      </ul>
+      <div class="hero-buttons">
+        <a href="tel:{{ site.phone }}" class="btn btn-primary">Ring Mike: {{ site.phone }}</a>
+        <a href="/contact-us/" class="btn btn-primary">Contact Mike</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img
+        src="/assets/images/hero-image.webp"
+        alt="Mike's House Clearance team after completing a property clearance in Devon"
+        width="600"
+        height="450"
+        loading="eager"
+        decoding="async">
+    </div>
+  </div>
+</section>
