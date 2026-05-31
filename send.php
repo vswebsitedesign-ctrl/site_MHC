@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     $headers .= "X-Mailer: PHP/" . phpversion();
     if (mail($to_email, $subject, $email_body, $headers)) {
-        header("Location: thank-you.html"); 
+        header("Location: /thank-you/"); 
         exit;
     } else {
         echo "Error: Server failed to send email.";
