@@ -10,8 +10,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $postcode   = filter_input(INPUT_POST, 'postcode', FILTER_SANITIZE_SPECIAL_CHARS);
     $message    = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
     $clearance_types = [];
-    if (isset($_POST['clearance_type']) && is_array($_POST['clearance_type'])) {
-        foreach ($_POST['clearance_type'] as $type) {
+    if (isset($_POST['clearance-type']) && is_array($_POST['clearance-type'])) {
+        foreach ($_POST['clearance-type'] as $type) {
             $clearance_types[] = htmlspecialchars($type);
         }
     }
