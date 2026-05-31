@@ -3,9 +3,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $to_email = "info@mikes-house-clearance.co.uk"; 
     $subject = "New Quote Request - Mike's House Clearance";
-    $first_name = filter_input(INPUT_POST, 'first_name', FILTER_SANITIZE_SPECIAL_CHARS);
+    $first_name = filter_input(INPUT_POST, 'first-name', FILTER_SANITIZE_SPECIAL_CHARS);
     $surname    = filter_input(INPUT_POST, 'surname', FILTER_SANITIZE_SPECIAL_CHARS);
-    $phone      = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_SPECIAL_CHARS);
+    $phone      = filter_input(INPUT_POST, 'telephone', FILTER_SANITIZE_SPECIAL_CHARS);
     $email      = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
     $postcode   = filter_input(INPUT_POST, 'postcode', FILTER_SANITIZE_SPECIAL_CHARS);
     $message    = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
