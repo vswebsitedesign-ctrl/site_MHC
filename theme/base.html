@@ -1,16 +1,100 @@
 <!doctype html>
-<html lang="">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> | </title>
   <meta name="description" content="">
-  <link rel="stylesheet" href="">
-  
+  <link rel="stylesheet" href="/assets/main.css">
+  <style>
+.mhc-balloon{position:fixed;bottom:30px;right:20px;z-index:9999;display:flex;flex-direction:column;align-items:center;animation:mhcfloat 3s ease-in-out infinite;cursor:pointer;}
+.mhc-balloon-body{width:190px;height:190px;background:radial-gradient(circle at 35% 35%,#5bc8f5,#1a7abf);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;text-align:center;border:3px solid #0f5a8a;}
+.mhc-bal-string{width:2px;height:55px;background:#666;}
+.mhc-bal-l1,.mhc-bal-l4,.mhc-bal-l6{font-size:9px;color:#fff;font-weight:700;margin:1px 0;text-transform:uppercase;}
+.mhc-bal-l2{font-size:17px;color:#FFE600;font-weight:900;margin:1px 0;text-transform:uppercase;letter-spacing:1px;}
+.mhc-bal-l3{font-size:8px;color:#FFE600;font-weight:700;margin:1px 0;}
+.mhc-bal-l5{font-size:13px;color:#fff;font-weight:900;margin:1px 0;text-transform:uppercase;}
+.mhc-bal-clock{font-size:18px;margin:2px 0;}
+.mhc-bal-l7{font-size:14px;color:#FFE600;font-weight:900;margin:1px 0;text-transform:uppercase;}
+@keyframes mhcfloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+  </style>
 </head>
 <body>
-  
+  <header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="site-logo" aria-label="Mikes House Clearance — return to homepage">
+      Mikes House Clearance
+    </a>
+    <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <ul role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/about-us/">About Us</a></li>
+        <li><a href="/contact-us/">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:07347300798" class="header-cta" aria-label="Ring Mike on 07347300798">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 15.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1 0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1z"/></svg>
+      07347300798
+    </a>
+  </div>
+</header>
   <main id="main-content">{{ content }}</main>
-
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-tagline">Mikes House Clearance &mdash; Wherever You Are, Mike Has You Sorted</p>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="/">Home</a>
+      <a href="/services/">Services</a>
+      <a href="/about-us/">About Us</a>
+      <a href="/contact-us/">Contact</a>
+    </nav>
+    <nav class="footer-legal" aria-label="Legal links">
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/cookie-policy/">Cookie Policy</a>
+      <a href="/terms-conditions/">Terms and Conditions</a>
+    </nav>
+    <p class="footer-info">
+      Mikes House Clearance | Environment Agency Licensed Waste Carrier<br>
+      Fully Insured | Registered in England &amp; Wales<br>
+      &copy; 2026 Mikes House Clearance. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#124F1B;color:#fff;padding:18px 5%;z-index:99999;box-shadow:0 -4px 12px rgba(0,0,0,0.3);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;">
+    <p style="margin:0;font-size:0.95rem;line-height:1.6;flex:1 1 300px;">We use cookies to improve your experience. By continuing to use this site you agree to our <a href="/cookie-policy/" style="color:#fff;font-weight:bold;text-decoration:underline;">Cookie Policy</a>.</p>
+    <div style="display:flex;gap:10px;flex-shrink:0;">
+        <button onclick="cookieConsent('accepted')" style="background:#fff;color:#124F1B;border:none;padding:10px 22px;border-radius:6px;font-weight:bold;font-size:0.95rem;cursor:pointer;">Accept</button>
+        <button onclick="cookieConsent('declined')" style="background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.4);padding:10px 22px;border-radius:6px;font-weight:bold;font-size:0.95rem;cursor:pointer;">Decline</button>
+    </div>
+</div>
+<script>
+(function(){
+        document.getElementById("cookie-banner").style.display="flex";
+    }
+})();
+function cookieConsent(val){
+    localStorage.setItem("cookie_consent", val);
+    document.getElementById("cookie-banner").style.display="none";
+}
+</script>
+<div class="mhc-balloon" onclick="this.style.display='none'" title="Click to close">
+  <div class="mhc-balloon-body">
+    <p class="mhc-bal-l1">NOW HAVE</p>
+    <p class="mhc-bal-l2">TRACKERS</p>
+    <p class="mhc-bal-l3">— ON MY VANS —</p>
+    <p class="mhc-bal-l4">SO I CAN GIVE CUSTOMERS</p>
+    <p class="mhc-bal-l5">UP TO DATE TIMES</p>
+    <div class="mhc-bal-clock">&#128336;</div>
+    <p class="mhc-bal-l6">SO NO NEED TO</p>
+    <p class="mhc-bal-l7">WAIT IN!</p>
+  </div>
+  <div class="mhc-bal-string"></div>
+</div>
 </body>
 </html>

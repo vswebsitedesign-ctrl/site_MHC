@@ -2895,18 +2895,5 @@
       "rule": "AI must check server capabilities block in master report before recommending any form or submission solution.",
       "directive": "PHP is available on this Plesk server. Formspree and mailto fallbacks are never needed. Always use send.php."
     }
-  },
-  "session_20260605_balloon_and_bashtml": {
-    "timestamp": "2026-06-05",
-    "action": "Sticky tracker balloon added, base.html restored from live source",
-    "detail": "Sticky floating balloon widget added to all pages via theme/base.html. Balloon uses namespaced mhc- CSS classes to prevent stylesheet collisions. Balloon is fixed bottom-right, floats on animation, dismisses on click. base.html reconstructed from confirmed live homepage source \u2014 correct stylesheet path /assets/main.css, header, footer, cookie banner all restored. Pre-existing blank stylesheet href in base.html was not caused by balloon work.",
-    "files_modified": [
-      "theme/base.html \u2014 reconstructed from live source with balloon inlined",
-      "_includes/balloon.html \u2014 created (reference copy, not used by engine)"
-    ],
-    "balloon_classes": "All prefixed mhc- to prevent collision with site stylesheet",
-    "gotcha": "base.html in repo was always a skeleton \u2014 real base.html must be maintained manually and kept in sync with live site",
-    "homepage_slug_rule": "After every build run: cp build/index/index.html build/index.html",
-    "status": "COMPLETE"
   }
 }

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> | </title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="">
+  
+  <style>
+.mhc-balloon{position:fixed;bottom:30px;right:20px;z-index:9999;display:flex;flex-direction:column;align-items:center;animation:mhcfloat 3s ease-in-out infinite;cursor:pointer;}
+.mhc-balloon-body{width:190px;height:190px;background:radial-gradient(circle at 35% 35%,#5bc8f5,#1a7abf);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;text-align:center;border:3px solid #0f5a8a;}
+.mhc-bal-string{width:2px;height:55px;background:#666;}
+.mhc-bal-l1,.mhc-bal-l3,.mhc-bal-l4,.mhc-bal-l6{font-size:9px;color:#fff;font-weight:700;margin:1px 0;text-transform:uppercase;}
+.mhc-bal-l2{font-size:17px;color:#FFE600;font-weight:900;margin:1px 0;text-transform:uppercase;letter-spacing:1px;}
+.mhc-bal-l3{color:#FFE600;}
+.mhc-bal-l5{font-size:13px;color:#fff;font-weight:900;margin:1px 0;text-transform:uppercase;}
+.mhc-bal-clock{font-size:18px;margin:2px 0;}
+.mhc-bal-l7{font-size:14px;color:#FFE600;font-weight:900;margin:1px 0;text-transform:uppercase;}
+@keyframes mhcfloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+  </style>
+</head>
+<body>
+  
+  <main id="main-content">{{ content }}</main>
+
+<div class="mhc-balloon" onclick="this.style.display='none'" title="Click to close">
+  <div class="mhc-balloon-body">
+    <p class="mhc-bal-l1">NOW HAVE</p>
+    <p class="mhc-bal-l2">TRACKERS</p>
+    <p class="mhc-bal-l3">— ON MY VANS —</p>
+    <p class="mhc-bal-l4">SO I CAN GIVE CUSTOMERS</p>
+    <p class="mhc-bal-l5">UP TO DATE TIMES</p>
+    <div class="mhc-bal-clock">&#128336;</div>
+    <p class="mhc-bal-l6">SO NO NEED TO</p>
+    <p class="mhc-bal-l7">WAIT IN!</p>
+  </div>
+  <div class="mhc-bal-string"></div>
+</div>
+</body>
+</html>
