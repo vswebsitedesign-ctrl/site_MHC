@@ -7,7 +7,7 @@
     "project_root": "/home/chubert/omni-builder/sites/site_MHC",
     "tagline": "",
     "email": "info@mikes-house-clearance.co.uk",
-    "phone": "07347300798",
+    "phone": "07931 476 744",
     "master_report_path": "\\\\wsl.localhost\\Ubuntu\\home\\chubert\\omni-builder\\sites\\site_MHC\\Master_Report.json"
   },
   "architecture_contract": {
@@ -2716,10 +2716,6 @@
     {
       "date": "2026-06-09",
       "change": "Task 1+2 complete: fixed build deployed to live server. httpdocs path confirmed as /var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/. Live title tag verified correct. send.php refreshed. AI_READ_THIS_FIRST updated with confirmed server IP and deploy command."
-    },
-    {
-      "date": "2026-06-09",
-      "change": "All 2,499 pages built with unique location content. Falmouth fixed. Full build deployed to live server. send.php refreshed. Phone number corrected to 07347300798 throughout. All session tasks complete."
     }
   ],
   "known_issues": {

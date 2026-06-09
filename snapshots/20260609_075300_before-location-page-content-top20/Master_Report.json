@@ -7,7 +7,7 @@
     "project_root": "/home/chubert/omni-builder/sites/site_MHC",
     "tagline": "",
     "email": "info@mikes-house-clearance.co.uk",
-    "phone": "07347300798",
+    "phone": "07931 476 744",
     "master_report_path": "\\\\wsl.localhost\\Ubuntu\\home\\chubert\\omni-builder\\sites\\site_MHC\\Master_Report.json"
   },
   "architecture_contract": {
@@ -2704,22 +2704,6 @@
     {
       "date": "2026-06-09",
       "change": "PLAN OF ACTION - recorded after full GSC and crawl audit session. SITUATION: 1,173 location pages crawled but not indexed. 139 pages currently indexed (down from 1,123 in March). All technical SEO fixes completed this session: build.py engine fixed (title, meta_description, canonical_slug, robots.txt, sitemap.xml, homepage copy), base.html tokens corrected, all 2,499 pages now build with correct SEO metadata. ROOT CAUSE: Content quality \u2014 every location page is near-identical, differentiated only by place name and postcode. Google Helpful Content systems are refusing to index them. PLAN OF ACTION: (1) IMMEDIATE \u2014 deploy the fixed build to the live server via rsync once build verified locally. Submit sitemap.xml to GSC. Request indexing of homepage and core service pages manually. (2) SHORT TERM (next 2 weeks) \u2014 write unique introductory paragraphs for the top 20 highest-impression location pages identified in GSC: pensilva, newquay, calstock, torpoint, penzance, landrake, downderry, gunnislake, menheniot, st-germans, redruth, illogan, praze-an-beeble, crowlas, perranarworthal, porthleven, blackwater, cawsand, gorran-haven, st-austell. Each paragraph must reference local landmarks, distances, or area-specific context \u2014 not just swap the place name. (3) MEDIUM TERM (4-8 weeks) \u2014 expand unique content to all Cornwall location pages. Monitor GSC crawled-not-indexed count weekly. Target: reduce from 1,173 to under 500. (4) ONGOING \u2014 do not add more location pages until existing pages are indexing. Fix out-of-area query cannibalisation by reviewing pages.json for any slugs targeting locations outside Cornwall, Devon, and Somerset. (5) OFF-PLATFORM \u2014 create and verify Google Business Profile for mikes-house-clearance.co.uk. Collect Google reviews. Submit to Yell, Checkatrade, and FreeIndex for local backlinks. SUCCESS METRIC: indexed page count returning toward 1,000+ within 8 weeks of content differentiation work beginning."
-    },
-    {
-      "date": "2026-06-09",
-      "change": "Unique body_content and meta_description written to 20 priority house-clearance location pages identified from GSC impression data: pensilva-pl14, newquay-tr7, calstock-pl18, torpoint-pl11, penzance-tr18, landrake-pl12, downderry-pl11, gunnislake-pl18, menheniot-pl14, st-germans-pl12, redruth-tr15, illogan-tr15, praze-an-beeble-tr14, crowlas-tr20, perranarworthal-tr3, porthleven-tr13, blackwater-tr4, cawsand-pl10, gorran-haven-pl26, st-austell-pl25. Each page has unique local content referencing specific landmarks, neighbouring villages, postcodes, access conditions, and property types \u2014 not a place-name swap. All 2,499 pages rebuilt and verified. Snapshot: snapshots/20260609_075300_before-location-page-content-top20. Next action: deploy to live server, then monitor GSC crawled-not-indexed count over following 2 weeks."
-    },
-    {
-      "date": "2026-06-09",
-      "change": "Imported best practice policies from site_tales master report: modus_operandi rules block (14 rules), command_sequence patterns, ai_screwup_incident_log with Gemini ban, session branch workflow rules. All appended \u2014 nothing deleted."
-    },
-    {
-      "date": "2026-06-09",
-      "change": "Task 1+2 complete: fixed build deployed to live server. httpdocs path confirmed as /var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/. Live title tag verified correct. send.php refreshed. AI_READ_THIS_FIRST updated with confirmed server IP and deploy command."
-    },
-    {
-      "date": "2026-06-09",
-      "change": "All 2,499 pages built with unique location content. Falmouth fixed. Full build deployed to live server. send.php refreshed. Phone number corrected to 07347300798 throughout. All session tasks complete."
     }
   ],
   "known_issues": {
@@ -2807,7 +2791,7 @@
   "AI_READ_THIS_FIRST": {
     "project": "site_MHC",
     "domain": "mikes-house-clearance.co.uk",
-    "live_server": "217.154.33.12",
+    "live_server": "NOT YET CONFIGURED",
     "deploy_user": "root",
     "ssh_key": "~/.ssh/github_actions_bat",
     "project_root": "/home/chubert/omni-builder/sites/site_MHC",
@@ -2828,7 +2812,7 @@
       "4. Commit and push only after local build verified clean"
     ],
     "emergency_rollback": "git checkout main && git reset --hard HEAD~1",
-    "deploy_command": "rsync -avz -e \"ssh -i ~/.ssh/github_actions_mhc\" build/ mikes-house-clearance_wvlupgekl3@217.154.33.12:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
+    "deploy_command": "SERVER NOT YET CONFIGURED \u2014 do not deploy",
     "send_php_deploy": "SERVER NOT YET CONFIGURED",
     "github_actions": "build-only \u2014 NO rsync in deploy.yml \u2014 all deploys are manual rsync from local machine",
     "ai_rules": [
@@ -2944,37 +2928,5 @@
     "gotcha": "base.html in repo was always a skeleton \u2014 real base.html must be maintained manually and kept in sync with live site",
     "homepage_slug_rule": "After every build run: cp build/index/index.html build/index.html",
     "status": "COMPLETE"
-  },
-  "modus_operandi": {
-    "note": "Mandatory workflow rules imported from site_tales master report 2026-06-09",
-    "rules": [
-      "1. ALWAYS snapshot before every edit \u2014 use: bash snapshot.sh label",
-      "2. Snapshot and edit combined in ONE bash command \u2014 snapshot runs first, edit only proceeds if snapshot succeeds",
-      "3. ALWAYS build after every edit to verify \u2014 use: python3 build.py",
-      "4. ALWAYS append Master Report at end of session \u2014 never delete, append only",
-      "5. NEVER modify files inside ./build/ \u2014 fully overwritten on every build",
-      "6. NEVER rewrite build.py \u2014 targeted edits only",
-      "7. Content changes go in data/pages.json only \u2014 single source of truth",
-      "8. Layout changes go in theme/base.html only if unavoidable",
-      "9. One bash command at a time \u2014 copy-paste ready, no multi-step instructions split across turns",
-      "10. Confirm static modular architecture best practice with every command",
-      "11. NEVER commit directly to main during a session \u2014 use session_start.sh to create a branch first",
-      "12. NEVER use rsync --delete on deployment \u2014 wipes server-only files including send.php",
-      "13. NEVER guess paths or filenames \u2014 read Master Report first, verify from disk",
-      "14. ALWAYS batch fact-finding into single commands \u2014 no multi-turn fishing expeditions"
-    ],
-    "command_sequence": {
-      "start_session": "bash session_start.sh label",
-      "edit": "bash snapshot.sh label && [edit command] && python3 build.py",
-      "verify": "python3 build.py && grep target build/slug/index.html",
-      "end_session": "bash session_end.sh msg then rsync deploy command",
-      "deploy": "rsync -avz -e \"ssh -i ~/.ssh/github_actions_mhc\" build/ mikes-house-clearance_wvlupgekl3@217.154.33.12:/path/to/httpdocs/"
-    }
-  },
-  "ai_screwup_incident_log": {
-    "note": "Permanent log of AI failures on this project \u2014 read before every session",
-    "incidents": [],
-    "gemini_ban": "Gemini AI is permanently banned from all projects in this omni-builder workspace \u2014 caused 3+ hours of lost work on site_tales on 2026-06-01 by blindly spamming broken sed commands against build/ files and ignoring master report architecture rules",
-    "permanent_fix": "AI must read this entire Master Report before generating any bash commands. No blind regex strings, no sed on build/ files, no assumptions about file structure. Verify everything from disk."
   }
 }
