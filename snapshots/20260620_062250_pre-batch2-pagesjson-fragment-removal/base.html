@@ -5,15 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
   <meta name="description" content="{{ meta_description }}">
-  <meta property="og:title" content="{{ og_title }}">
-  <meta property="og:description" content="{{ og_description }}">
-  <meta property="og:url" content="{{ og_url }}">
-  <meta property="og:type" content="{{ og_type }}">
-  <meta property="og:image" content="https://mikes-house-clearance.co.uk/assets/images/hero-image.webp">
-  <meta property="og:site_name" content="Mike's House Clearance">
   <link rel="canonical" href="https://mikes-house-clearance.co.uk/{{ canonical_slug }}">
-  <script type="application/ld+json">{{ schema }}</script>
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="/assets/main.css">
   <style>
 .mhc-balloon{position:fixed;bottom:30px;right:20px;z-index:9999;display:flex;flex-direction:column;align-items:center;animation:mhcfloat 3s ease-in-out infinite;cursor:pointer;}
@@ -85,7 +78,8 @@
 <script>
 (function(){
         document.getElementById("cookie-banner").style.display="flex";
-    })();
+    }
+})();
 function cookieConsent(val){
     localStorage.setItem("cookie_consent", val);
     document.getElementById("cookie-banner").style.display="none";

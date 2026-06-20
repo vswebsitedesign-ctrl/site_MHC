@@ -1,0 +1,23 @@
+
+=== GSC AUDIT SUMMARY ===
+Site      : https://mikes-house-clearance.co.uk/
+Period    : 2026-03-22 to 2026-06-20
+
+OVERALL (last 90 days)
+  Total clicks      : 0
+  Total impressions : 1,475
+  Avg CTR           : 0.0%
+  Avg position      : 52.6
+
+OPPORTUNITIES
+  Zero-click queries (imp>=100, ctr<2%) : 1
+  Quick-win keywords (pos 5-20)         : 0
+
+FILES SAVED TO: /home/chubert/omni-builder/sites/site_MHC/gsc_audit/
+  1_top_queries.csv
+  2_top_pages.csv
+  3_zero_click_opportunities.csv
+  4_quick_wins.csv
+  5_by_device.csv
+  6_by_country.csv
+  7_page_query_matrix.csv

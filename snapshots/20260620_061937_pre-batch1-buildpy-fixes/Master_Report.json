@@ -2990,65 +2990,49 @@
         "severity": "CRITICAL",
         "detail": "Every page outputs blank meta description. build.py uses meta_description field but pages.json uses description on core pages. Field name mismatch confirmed live on server.",
         "fix": "build.py \u2014 fall back: page.get(\"meta_description\") or page.get(\"description\", \"\")",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "Fixed in build.py \u2014 fallback: meta_description or description field"
+        "status": "PENDING"
       },
       "2_readme_publicly_indexed": {
         "severity": "CRITICAL",
         "detail": "README slug is live, indexed by Google, and in sitemap.xml. Contains dev checklist with missing client data items visible to public.",
         "fix": "build.py \u2014 exclude README slug from build output and sitemap",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "README excluded from build output and sitemap via BUILD_EXCLUDE in build.py"
+        "status": "PENDING"
       },
       "3_thank_you_in_sitemap": {
         "severity": "HIGH",
         "detail": "thank-you page is in sitemap.xml. Form confirmation pages must never be indexed \u2014 wastes crawl budget.",
         "fix": "build.py \u2014 exclude thank-you from sitemap generation only, keep page",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "thank-you excluded from sitemap via SITEMAP_EXCLUDE in build.py"
+        "status": "PENDING"
       },
       "4_cookie_banner_js_bug": {
         "severity": "HIGH",
         "detail": "Cookie banner IIFE in base.html is missing closing }); \u2014 banner may silently fail in strict JS environments. Confirmed live.",
         "fix": "theme/base.html \u2014 fix IIFE closing syntax",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "IIFE closing }) fixed in theme/base.html"
+        "status": "PENDING"
       },
       "5_services_title_doubled": {
         "severity": "MEDIUM",
         "detail": "Services page title contains Mike's House Clearance twice. Google truncates long titles \u2014 wastes characters.",
         "fix": "data/pages.json \u2014 services slug title field",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "Services title corrected to: Our Services | Mikes House Clearance"
+        "status": "PENDING"
       },
       "6_no_og_tags": {
         "severity": "MEDIUM",
         "detail": "No Open Graph tags on any page. Social sharing and Google rich results both degraded.",
         "fix": "theme/base.html + build.py \u2014 add og:title, og:description, og:url, og:type, og:image tokens",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "og:title, og:description, og:url, og:type, og:image, og:site_name added to theme/base.html. Populated per page in build.py from existing title and description fields."
+        "status": "PENDING"
       },
       "7_no_schema_markup": {
         "severity": "MEDIUM",
         "detail": "No structured data (JSON-LD) on any page. LocalBusiness schema on homepage would improve trust signals and rich results eligibility.",
         "fix": "build.py + theme/base.html \u2014 add LocalBusiness schema to homepage, WebPage to all others",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "JSON-LD schema added to all 2475 pages via {{ schema }} token in base.html. LocalBusiness on homepage, Service on all local pages (2465 pages), WebPage on all core/hub pages. Generated in build.py from existing page data fields."
+        "status": "PENDING"
       },
       "8_no_max_image_preview": {
         "severity": "LOW",
         "detail": "max-image-preview:large not set on any page. Prevents Google from showing large thumbnail images in search results.",
         "fix": "theme/base.html \u2014 add to robots meta tag: max-image-preview:large",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "max-image-preview:large added to robots meta in theme/base.html"
+        "status": "PENDING"
       },
       "9_about_us_contact_us_never_crawled": {
         "severity": "HIGH",
@@ -3066,9 +3050,7 @@
         "severity": "CRITICAL",
         "detail": "24 Jekyll _includes template fragments accidentally imported into pages.json and built as real pages. Slugs include: footer, header, hero, location, service, google-tag, location-hero, location-info, location-map, location-pricing, location-process-reviews-faq, location-service-card, location-before-after, location-more-services, location-trust-banner, location-finder, location-property-services, location-hero-content, location-footer-cta, process-reviews-faq, professional-property-services, cookie-consent, before-after-gallery, top-banner. All 24 are live on server, returning HTTP 200, and indexed or discoverable by Google. Bodies contain raw Liquid/Jekyll template syntax including unparsed {% include %} and {% assign %} tags. This is the primary cause of crawl budget waste and duplicate/thin content signals damaging domain authority.",
         "fix": "data/pages.json \u2014 remove all 24 fragment slugs entirely. They are not real pages. Server is Nginx/Plesk \u2014 404s will be handled naturally. No htaccess redirects needed as none have meaningful GSC clicks.",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "24 fragment slugs removed from data/pages.json"
+        "status": "PENDING"
       },
       "12_fragment_slugs_list": {
         "severity": "CRITICAL",
@@ -3124,9 +3106,7 @@
           "service"
         ],
         "fix": "Remove from pages.json only. Do not touch build/ directly \u2014 build.py will stop generating these pages on next build.",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "24 fragment slugs confirmed removed \u2014 pages.json reduced from 2499 to 2475"
+        "status": "PENDING"
       },
       "13_core_slugs_correct_count": {
         "severity": "INFO",
@@ -3143,9 +3123,7 @@
           "thank-you",
           "README"
         ],
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "10 legitimate core slugs confirmed remaining after fragment removal"
+        "status": "PENDING"
       }
     },
     "gsc_performance_snapshot": {
@@ -3167,60 +3145,6 @@
       "crawl_budget_wasted": "Significant \u2014 Google spending crawl quota on 24 pages of raw template code",
       "content_quality_impact": "CRITICAL \u2014 thin/duplicate/malformed content signals from Liquid syntax served as HTML",
       "discovery_method": "GSC URL Inspection API cross-referenced with pages.json core slug audit"
-    },
-    "post_fix_build_stats": {
-      "date": "2026-06-20",
-      "pages_in_pages_json": 2475,
-      "pages_built": 2475,
-      "sitemap_urls": 2473,
-      "meta_descriptions_blank": 0,
-      "meta_descriptions_unique": 2474,
-      "fragment_slugs_removed": 24,
-      "snapshots_taken": [
-        "snapshots/20260620_061937_pre-batch1-buildpy-fixes",
-        "snapshots/20260620_062250_pre-batch2-pagesjson-fragment-removal",
-        "snapshots/20260620_062335_pre-batch3-basehtml-fixes"
-      ],
-      "files_modified": [
-        "build.py \u2014 meta description fallback, BUILD_EXCLUDE, SITEMAP_EXCLUDE",
-        "data/pages.json \u2014 24 fragment slugs removed, services title fixed",
-        "theme/base.html \u2014 cookie banner IIFE fixed, max-image-preview:large added",
-        "theme/base.html \u2014 OG meta tags + schema token added",
-        "build.py \u2014 OG tag population + LocalBusiness/Service/WebPage schema generation"
-      ],
-      "pending_next_session": [
-        "9_about_us_contact_us_never_crawled \u2014 monitor after deploy",
-        "10_sitemap_submitted_2499_indexed_0 \u2014 resubmit sitemap in GSC after deploy"
-      ]
-    },
-    "session_close": {
-      "date": "2026-06-20",
-      "status": "COMPLETE \u2014 all fixes deployed and verified",
-      "sitemap_resubmitted": true,
-      "sitemap_resubmitted_date": "2026-06-20",
-      "next_gsc_check": "2026-07-04",
-      "monitoring_reminders": [
-        "CHECK GSC Coverage report week of 2026-07-04 \u2014 indexed from sitemap should be rising from 0",
-        "CHECK not-indexed count \u2014 should be trending down from 2540",
-        "CHECK 24 fragment pages are deindexed \u2014 footer, header, hero etc should disappear from GSC",
-        "CHECK contact-us and about-us have been crawled for first time",
-        "CHECK average position \u2014 should begin improving as thin content signals clear",
-        "RECHECK pensilva-pl14 canonical conflict \u2014 monitor if duplicate canonical warning clears"
-      ],
-      "all_fixes_summary": {
-        "blank_meta_descriptions": "FIXED \u2014 2474 unique descriptions now live",
-        "readme_indexed": "FIXED \u2014 excluded from build and sitemap",
-        "thank_you_in_sitemap": "FIXED \u2014 excluded from sitemap",
-        "cookie_banner_js": "FIXED \u2014 IIFE closing corrected",
-        "services_title_doubled": "FIXED \u2014 title deduplicated",
-        "og_tags": "FIXED \u2014 all 2475 pages have OG tags",
-        "schema_markup": "FIXED \u2014 LocalBusiness/Service/WebPage on all 2475 pages",
-        "max_image_preview": "FIXED \u2014 max-image-preview:large on all pages",
-        "jekyll_fragments": "FIXED \u2014 24 fragment slugs removed from pages.json and live server",
-        "sitemap_resubmitted": "DONE \u2014 2473 clean URLs submitted to GSC 2026-06-20",
-        "send_php": "DEPLOYED \u2014 live and accepting POST from contact form",
-        "passwordless_ssh": "CONFIGURED \u2014 mhc host alias, github_actions_mhc key"
-      }
     }
   },
   "best_practices_from_tales_project_extended": {
@@ -3283,27 +3207,6 @@
         "All pages in sitemap must return HTTP 200 \u2014 verify after every build",
         "Monitor GSC Coverage report monthly \u2014 not-indexed count must trend down"
       ]
-    }
-  },
-  "deployment": {
-    "method": "rsync over SSH",
-    "command": "rsync -avz --delete /home/chubert/omni-builder/sites/site_MHC/build/ mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
-    "ssh_host_alias": "mhc",
-    "ssh_config": "~/.ssh/config \u2014 Host mhc",
-    "ssh_key": "~/.ssh/github_actions_mhc",
-    "server_ip": "217.154.33.12",
-    "server_user": "mikes-house-clearance_wvlupgekl3",
-    "remote_path": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
-    "server": "Nginx on Plesk",
-    "passwordless": true,
-    "key_installed": "2026-06-20",
-    "notes": "Key github_actions_mhc.pub installed via ssh-copy-id. No password required for future deploys.",
-    "send_php": {
-      "location_local": "/home/chubert/omni-builder/sites/site_MHC/send.php",
-      "location_remote": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
-      "deploy_command": "scp /home/chubert/omni-builder/sites/site_MHC/send.php mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
-      "notes": "send.php lives in project root not build/ \u2014 must be deployed separately via scp after any changes. rsync does not touch it. HTTP 403 on GET is correct \u2014 file only accepts POST from contact form.",
-      "live_status": "HTTP 403 on GET \u2014 correct. POST from contact form works."
     }
   }
 }

@@ -3030,17 +3030,13 @@
         "severity": "MEDIUM",
         "detail": "No Open Graph tags on any page. Social sharing and Google rich results both degraded.",
         "fix": "theme/base.html + build.py \u2014 add og:title, og:description, og:url, og:type, og:image tokens",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "og:title, og:description, og:url, og:type, og:image, og:site_name added to theme/base.html. Populated per page in build.py from existing title and description fields."
+        "status": "PENDING"
       },
       "7_no_schema_markup": {
         "severity": "MEDIUM",
         "detail": "No structured data (JSON-LD) on any page. LocalBusiness schema on homepage would improve trust signals and rich results eligibility.",
         "fix": "build.py + theme/base.html \u2014 add LocalBusiness schema to homepage, WebPage to all others",
-        "status": "COMPLETE",
-        "completed": "2026-06-20",
-        "fix_applied": "JSON-LD schema added to all 2475 pages via {{ schema }} token in base.html. LocalBusiness on homepage, Service on all local pages (2465 pages), WebPage on all core/hub pages. Generated in build.py from existing page data fields."
+        "status": "PENDING"
       },
       "8_no_max_image_preview": {
         "severity": "LOW",
@@ -3184,43 +3180,14 @@
       "files_modified": [
         "build.py \u2014 meta description fallback, BUILD_EXCLUDE, SITEMAP_EXCLUDE",
         "data/pages.json \u2014 24 fragment slugs removed, services title fixed",
-        "theme/base.html \u2014 cookie banner IIFE fixed, max-image-preview:large added",
-        "theme/base.html \u2014 OG meta tags + schema token added",
-        "build.py \u2014 OG tag population + LocalBusiness/Service/WebPage schema generation"
+        "theme/base.html \u2014 cookie banner IIFE fixed, max-image-preview:large added"
       ],
       "pending_next_session": [
+        "6_no_og_tags \u2014 OG meta tags for all pages",
+        "7_no_schema_markup \u2014 LocalBusiness and WebPage JSON-LD schema",
         "9_about_us_contact_us_never_crawled \u2014 monitor after deploy",
         "10_sitemap_submitted_2499_indexed_0 \u2014 resubmit sitemap in GSC after deploy"
       ]
-    },
-    "session_close": {
-      "date": "2026-06-20",
-      "status": "COMPLETE \u2014 all fixes deployed and verified",
-      "sitemap_resubmitted": true,
-      "sitemap_resubmitted_date": "2026-06-20",
-      "next_gsc_check": "2026-07-04",
-      "monitoring_reminders": [
-        "CHECK GSC Coverage report week of 2026-07-04 \u2014 indexed from sitemap should be rising from 0",
-        "CHECK not-indexed count \u2014 should be trending down from 2540",
-        "CHECK 24 fragment pages are deindexed \u2014 footer, header, hero etc should disappear from GSC",
-        "CHECK contact-us and about-us have been crawled for first time",
-        "CHECK average position \u2014 should begin improving as thin content signals clear",
-        "RECHECK pensilva-pl14 canonical conflict \u2014 monitor if duplicate canonical warning clears"
-      ],
-      "all_fixes_summary": {
-        "blank_meta_descriptions": "FIXED \u2014 2474 unique descriptions now live",
-        "readme_indexed": "FIXED \u2014 excluded from build and sitemap",
-        "thank_you_in_sitemap": "FIXED \u2014 excluded from sitemap",
-        "cookie_banner_js": "FIXED \u2014 IIFE closing corrected",
-        "services_title_doubled": "FIXED \u2014 title deduplicated",
-        "og_tags": "FIXED \u2014 all 2475 pages have OG tags",
-        "schema_markup": "FIXED \u2014 LocalBusiness/Service/WebPage on all 2475 pages",
-        "max_image_preview": "FIXED \u2014 max-image-preview:large on all pages",
-        "jekyll_fragments": "FIXED \u2014 24 fragment slugs removed from pages.json and live server",
-        "sitemap_resubmitted": "DONE \u2014 2473 clean URLs submitted to GSC 2026-06-20",
-        "send_php": "DEPLOYED \u2014 live and accepting POST from contact form",
-        "passwordless_ssh": "CONFIGURED \u2014 mhc host alias, github_actions_mhc key"
-      }
     }
   },
   "best_practices_from_tales_project_extended": {
@@ -3283,27 +3250,6 @@
         "All pages in sitemap must return HTTP 200 \u2014 verify after every build",
         "Monitor GSC Coverage report monthly \u2014 not-indexed count must trend down"
       ]
-    }
-  },
-  "deployment": {
-    "method": "rsync over SSH",
-    "command": "rsync -avz --delete /home/chubert/omni-builder/sites/site_MHC/build/ mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
-    "ssh_host_alias": "mhc",
-    "ssh_config": "~/.ssh/config \u2014 Host mhc",
-    "ssh_key": "~/.ssh/github_actions_mhc",
-    "server_ip": "217.154.33.12",
-    "server_user": "mikes-house-clearance_wvlupgekl3",
-    "remote_path": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
-    "server": "Nginx on Plesk",
-    "passwordless": true,
-    "key_installed": "2026-06-20",
-    "notes": "Key github_actions_mhc.pub installed via ssh-copy-id. No password required for future deploys.",
-    "send_php": {
-      "location_local": "/home/chubert/omni-builder/sites/site_MHC/send.php",
-      "location_remote": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
-      "deploy_command": "scp /home/chubert/omni-builder/sites/site_MHC/send.php mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
-      "notes": "send.php lives in project root not build/ \u2014 must be deployed separately via scp after any changes. rsync does not touch it. HTTP 403 on GET is correct \u2014 file only accepts POST from contact form.",
-      "live_status": "HTTP 403 on GET \u2014 correct. POST from contact form works."
     }
   }
 }
