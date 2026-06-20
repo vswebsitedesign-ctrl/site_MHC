@@ -13,3 +13,6 @@ Thumbs.db
 # Secrets (if any)
 *.env
 key.json
+gsc-extraction-500004-ad9c5f438f7b.json*
+gsc_audit/
+snapshots/
