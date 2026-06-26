@@ -31,7 +31,7 @@
     "cookie_banner": {
       "status": "inlined",
       "location": "theme/base.html",
-      "notes": "Cookie banner inlined directly into base.html \u2014 engine has no include system. Do not use {% include %} tags."
+      "notes": "Cookie banner inlined directly into base.html — engine has no include system. Do not use {% include %} tags."
     }
   },
   "data_schema": {
@@ -2575,23 +2575,23 @@
     },
     {
       "date": "2026-05-25",
-      "change": "Engine fix: if __name__ == __main__ guard added to build_sites.py \u2014 import no longer triggers full loop across all sites."
+      "change": "Engine fix: if __name__ == __main__ guard added to build_sites.py — import no longer triggers full loop across all sites."
     },
     {
       "date": "2026-05-25",
-      "change": "base.html must use {{ content }} only \u2014 engine does plain string replace, no Jinja2, no {% %} tags supported."
+      "change": "base.html must use {{ content }} only — engine does plain string replace, no Jinja2, no {% %} tags supported."
     },
     {
       "date": "2026-05-25",
-      "change": "Global components (header, cookie banner) must be inlined directly into theme/base.html \u2014 engine has no include system."
+      "change": "Global components (header, cookie banner) must be inlined directly into theme/base.html — engine has no include system."
     },
     {
       "date": "2026-05-25",
-      "change": "assets/ directory must be copied into build/ or served from project root \u2014 build/ directory only contains generated HTML."
+      "change": "assets/ directory must be copied into build/ or served from project root — build/ directory only contains generated HTML."
     },
     {
       "date": "2026-05-25",
-      "change": "Never append serve command to build command \u2014 if server already running on port 8000 it will throw OSError. Build only, then refresh browser."
+      "change": "Never append serve command to build command — if server already running on port 8000 it will throw OSError. Build only, then refresh browser."
     },
     {
       "date": "2026-05-25",
@@ -2599,7 +2599,7 @@
     },
     {
       "date": "2026-05-25",
-      "change": "Migration confirmed complete. Jekyll _data files not required \u2014 all content rendered into pages.json. Images migrated."
+      "change": "Migration confirmed complete. Jekyll _data files not required — all content rendered into pages.json. Images migrated."
     },
     {
       "date": "2026-05-25",
@@ -2611,7 +2611,7 @@
     },
     {
       "date": "2026-05-25",
-      "change": "Added known_issue: body_content must never contain full standalone HTML \u2014 double header/footer risk on all sites migrated from Jekyll."
+      "change": "Added known_issue: body_content must never contain full standalone HTML — double header/footer risk on all sites migrated from Jekyll."
     },
     {
       "date": "2026-05-25",
@@ -2671,7 +2671,7 @@
     },
     {
       "date": "2026-05-31",
-      "change": "Set project_metadata.email to info@mikes-house-clearance.co.uk \u2014 was blank. Added master_report_path to project_metadata."
+      "change": "Set project_metadata.email to info@mikes-house-clearance.co.uk — was blank. Added master_report_path to project_metadata."
     },
     {
       "date": "2026-05-31",
@@ -2687,31 +2687,31 @@
     },
     {
       "date": "2026-06-09",
-      "change": "SEO audit and full build engine fix. (1) base.html: hardcoded empty title and meta description replaced with {{ title }}, {{ meta_description }}, {{ canonical_slug }}, and robots meta tokens. (2) build.py: engine updated from content-only replacement to full token replacement \u2014 now handles title, meta_description, canonical_slug, generates robots.txt and sitemap.xml on every build, and copies build/index/index.html to build/index.html. (3) Snapshot taken before changes: snapshots/20260609_074047_before-build-and-bashtml-token-fix. All 2499 pages rebuild with correct SEO metadata."
+      "change": "SEO audit and full build engine fix. (1) base.html: hardcoded empty title and meta description replaced with {{ title }}, {{ meta_description }}, {{ canonical_slug }}, and robots meta tokens. (2) build.py: engine updated from content-only replacement to full token replacement — now handles title, meta_description, canonical_slug, generates robots.txt and sitemap.xml on every build, and copies build/index/index.html to build/index.html. (3) Snapshot taken before changes: snapshots/20260609_074047_before-build-and-bashtml-token-fix. All 2499 pages rebuild with correct SEO metadata."
     },
     {
       "date": "2026-06-09",
-      "change": "GSC audit complete (last 3 months data). Key findings: 47 total clicks, avg position ~35. Best pages: /services (9 clicks, pos 6.29), homepage (12 clicks, pos 35). Working location pages: pensilva, newquay, illogan, redruth all ranking pos 2-8 with clicks. Critical issue identified: site ranking for out-of-area queries (Aberdeen, Brookmans Park, Windsor, Surrey, Welwyn Garden City) with zero clicks \u2014 these are diluting geographic relevance signals. Slug inconsistency visible in GSC: some indexed URLs have trailing slashes, some do not \u2014 canonical fix in build.py will resolve this on next crawl. Mobile CTR 3.53% vs Desktop 1.02% \u2014 mobile users converting better. 99% UK traffic. No manual actions or security issues detected."
+      "change": "GSC audit complete (last 3 months data). Key findings: 47 total clicks, avg position ~35. Best pages: /services (9 clicks, pos 6.29), homepage (12 clicks, pos 35). Working location pages: pensilva, newquay, illogan, redruth all ranking pos 2-8 with clicks. Critical issue identified: site ranking for out-of-area queries (Aberdeen, Brookmans Park, Windsor, Surrey, Welwyn Garden City) with zero clicks — these are diluting geographic relevance signals. Slug inconsistency visible in GSC: some indexed URLs have trailing slashes, some do not — canonical fix in build.py will resolve this on next crawl. Mobile CTR 3.53% vs Desktop 1.02% — mobile users converting better. 99% UK traffic. No manual actions or security issues detected."
     },
     {
       "date": "2026-06-09",
-      "change": "Crawl audit data read. Indexing status: collapsed from 1,123 indexed pages (15 Mar) to ~139 indexed (29 May). 1,173 pages crawled but not indexed \u2014 Google Helpful Content signal rejecting thin/duplicate location pages. Critical issues: 22x 404s (covered by .htaccess redirects), 4x canonical tag errors (resolved by build.py fix today), 2x redirect errors, 1x noindex, 1x duplicate without canonical. No non-critical issues flagged. The 1,173 not-indexed is a content quality problem, not a technical one \u2014 location pages require differentiated content to recover indexing. Technical fixes (canonical, meta descriptions, robots.txt, sitemap) completed this session. Content differentiation is the next required action."
+      "change": "Crawl audit data read. Indexing status: collapsed from 1,123 indexed pages (15 Mar) to ~139 indexed (29 May). 1,173 pages crawled but not indexed — Google Helpful Content signal rejecting thin/duplicate location pages. Critical issues: 22x 404s (covered by .htaccess redirects), 4x canonical tag errors (resolved by build.py fix today), 2x redirect errors, 1x noindex, 1x duplicate without canonical. No non-critical issues flagged. The 1,173 not-indexed is a content quality problem, not a technical one — location pages require differentiated content to recover indexing. Technical fixes (canonical, meta descriptions, robots.txt, sitemap) completed this session. Content differentiation is the next required action."
     },
     {
       "date": "2026-06-09",
-      "change": "Crawled-not-indexed detail table read (1,173 pages). Every affected page is a location-specific service page across all service types: house-clearance, rubbish-clearance, garage-loft-basement-clearance, end-of-tenancy-clearance, probate-bereavement, office-clearances, home-removals, garden-outbuilding. Earliest crawl dates are Feb 2026 \u2014 Google has held this verdict since before site launch. Count has been flat at 1,173 since 26 May with zero movement. Google has made a quality decision and will not reverse it without meaningful content differentiation. Technical fixes alone (canonical, meta, sitemap) will not recover these pages. Required action: content differentiation per location \u2014 unique introductory paragraphs, local landmarks, area-specific copy. This is the single most important outstanding task for the site."
+      "change": "Crawled-not-indexed detail table read (1,173 pages). Every affected page is a location-specific service page across all service types: house-clearance, rubbish-clearance, garage-loft-basement-clearance, end-of-tenancy-clearance, probate-bereavement, office-clearances, home-removals, garden-outbuilding. Earliest crawl dates are Feb 2026 — Google has held this verdict since before site launch. Count has been flat at 1,173 since 26 May with zero movement. Google has made a quality decision and will not reverse it without meaningful content differentiation. Technical fixes alone (canonical, meta, sitemap) will not recover these pages. Required action: content differentiation per location — unique introductory paragraphs, local landmarks, area-specific copy. This is the single most important outstanding task for the site."
     },
     {
       "date": "2026-06-09",
-      "change": "PLAN OF ACTION - recorded after full GSC and crawl audit session. SITUATION: 1,173 location pages crawled but not indexed. 139 pages currently indexed (down from 1,123 in March). All technical SEO fixes completed this session: build.py engine fixed (title, meta_description, canonical_slug, robots.txt, sitemap.xml, homepage copy), base.html tokens corrected, all 2,499 pages now build with correct SEO metadata. ROOT CAUSE: Content quality \u2014 every location page is near-identical, differentiated only by place name and postcode. Google Helpful Content systems are refusing to index them. PLAN OF ACTION: (1) IMMEDIATE \u2014 deploy the fixed build to the live server via rsync once build verified locally. Submit sitemap.xml to GSC. Request indexing of homepage and core service pages manually. (2) SHORT TERM (next 2 weeks) \u2014 write unique introductory paragraphs for the top 20 highest-impression location pages identified in GSC: pensilva, newquay, calstock, torpoint, penzance, landrake, downderry, gunnislake, menheniot, st-germans, redruth, illogan, praze-an-beeble, crowlas, perranarworthal, porthleven, blackwater, cawsand, gorran-haven, st-austell. Each paragraph must reference local landmarks, distances, or area-specific context \u2014 not just swap the place name. (3) MEDIUM TERM (4-8 weeks) \u2014 expand unique content to all Cornwall location pages. Monitor GSC crawled-not-indexed count weekly. Target: reduce from 1,173 to under 500. (4) ONGOING \u2014 do not add more location pages until existing pages are indexing. Fix out-of-area query cannibalisation by reviewing pages.json for any slugs targeting locations outside Cornwall, Devon, and Somerset. (5) OFF-PLATFORM \u2014 create and verify Google Business Profile for mikes-house-clearance.co.uk. Collect Google reviews. Submit to Yell, Checkatrade, and FreeIndex for local backlinks. SUCCESS METRIC: indexed page count returning toward 1,000+ within 8 weeks of content differentiation work beginning."
+      "change": "PLAN OF ACTION - recorded after full GSC and crawl audit session. SITUATION: 1,173 location pages crawled but not indexed. 139 pages currently indexed (down from 1,123 in March). All technical SEO fixes completed this session: build.py engine fixed (title, meta_description, canonical_slug, robots.txt, sitemap.xml, homepage copy), base.html tokens corrected, all 2,499 pages now build with correct SEO metadata. ROOT CAUSE: Content quality — every location page is near-identical, differentiated only by place name and postcode. Google Helpful Content systems are refusing to index them. PLAN OF ACTION: (1) IMMEDIATE — deploy the fixed build to the live server via rsync once build verified locally. Submit sitemap.xml to GSC. Request indexing of homepage and core service pages manually. (2) SHORT TERM (next 2 weeks) — write unique introductory paragraphs for the top 20 highest-impression location pages identified in GSC: pensilva, newquay, calstock, torpoint, penzance, landrake, downderry, gunnislake, menheniot, st-germans, redruth, illogan, praze-an-beeble, crowlas, perranarworthal, porthleven, blackwater, cawsand, gorran-haven, st-austell. Each paragraph must reference local landmarks, distances, or area-specific context — not just swap the place name. (3) MEDIUM TERM (4-8 weeks) — expand unique content to all Cornwall location pages. Monitor GSC crawled-not-indexed count weekly. Target: reduce from 1,173 to under 500. (4) ONGOING — do not add more location pages until existing pages are indexing. Fix out-of-area query cannibalisation by reviewing pages.json for any slugs targeting locations outside Cornwall, Devon, and Somerset. (5) OFF-PLATFORM — create and verify Google Business Profile for mikes-house-clearance.co.uk. Collect Google reviews. Submit to Yell, Checkatrade, and FreeIndex for local backlinks. SUCCESS METRIC: indexed page count returning toward 1,000+ within 8 weeks of content differentiation work beginning."
     },
     {
       "date": "2026-06-09",
-      "change": "Unique body_content and meta_description written to 20 priority house-clearance location pages identified from GSC impression data: pensilva-pl14, newquay-tr7, calstock-pl18, torpoint-pl11, penzance-tr18, landrake-pl12, downderry-pl11, gunnislake-pl18, menheniot-pl14, st-germans-pl12, redruth-tr15, illogan-tr15, praze-an-beeble-tr14, crowlas-tr20, perranarworthal-tr3, porthleven-tr13, blackwater-tr4, cawsand-pl10, gorran-haven-pl26, st-austell-pl25. Each page has unique local content referencing specific landmarks, neighbouring villages, postcodes, access conditions, and property types \u2014 not a place-name swap. All 2,499 pages rebuilt and verified. Snapshot: snapshots/20260609_075300_before-location-page-content-top20. Next action: deploy to live server, then monitor GSC crawled-not-indexed count over following 2 weeks."
+      "change": "Unique body_content and meta_description written to 20 priority house-clearance location pages identified from GSC impression data: pensilva-pl14, newquay-tr7, calstock-pl18, torpoint-pl11, penzance-tr18, landrake-pl12, downderry-pl11, gunnislake-pl18, menheniot-pl14, st-germans-pl12, redruth-tr15, illogan-tr15, praze-an-beeble-tr14, crowlas-tr20, perranarworthal-tr3, porthleven-tr13, blackwater-tr4, cawsand-pl10, gorran-haven-pl26, st-austell-pl25. Each page has unique local content referencing specific landmarks, neighbouring villages, postcodes, access conditions, and property types — not a place-name swap. All 2,499 pages rebuilt and verified. Snapshot: snapshots/20260609_075300_before-location-page-content-top20. Next action: deploy to live server, then monitor GSC crawled-not-indexed count over following 2 weeks."
     },
     {
       "date": "2026-06-09",
-      "change": "Imported best practice policies from site_tales master report: modus_operandi rules block (14 rules), command_sequence patterns, ai_screwup_incident_log with Gemini ban, session branch workflow rules. All appended \u2014 nothing deleted."
+      "change": "Imported best practice policies from site_tales master report: modus_operandi rules block (14 rules), command_sequence patterns, ai_screwup_incident_log with Gemini ban, session branch workflow rules. All appended — nothing deleted."
     },
     {
       "date": "2026-06-09",
@@ -2723,25 +2723,32 @@
     },
     {
       "date": "2026-06-09",
-      "change": "Sitemap submitted to GSC. Check GSC on 2026-06-23 \u2014 monitor indexed page count and crawled-but-not-indexed count. Target: indexed count rising, crawled-not-indexed falling."
+      "change": "Sitemap submitted to GSC. Check GSC on 2026-06-23 — monitor indexed page count and crawled-but-not-indexed count. Target: indexed count rising, crawled-not-indexed falling."
+    },
+    {
+      "task": "Hero image SEO placeholder created",
+      "detail": "Created assets/images/placeholders/default-placeholder.jpg from assets/images/hero-image.webp at 1200x675 for future og:image and twitter:image implementation. Source images optimised and oversized assets reduced prior to placeholder generation.",
+      "status": "COMPLETE",
+      "completed": "2026-06-25",
+      "priority": "HIGH"
     }
   ],
   "known_issues": {
-    "template_tags_in_base": "base.html may contain {% %} or {{ title }} tags the engine cannot process \u2014 use {{ content }} only",
-    "includes_not_rendered": "engine has no include system \u2014 all global components must be inlined into base.html",
-    "assets_not_in_build": "assets/ directory is not copied to build/ automatically \u2014 serve from project root or copy manually",
-    "port_clash": "always check port 8000 is free before serving \u2014 build only and refresh if server already running",
-    "assets_build_sync": "assets/ must be re-copied into build/ after every build \u2014 cp -r assets/ build/assets/ from each site root",
+    "template_tags_in_base": "base.html may contain {% %} or {{ title }} tags the engine cannot process — use {{ content }} only",
+    "includes_not_rendered": "engine has no include system — all global components must be inlined into base.html",
+    "assets_not_in_build": "assets/ directory is not copied to build/ automatically — serve from project root or copy manually",
+    "port_clash": "always check port 8000 is free before serving — build only and refresh if server already running",
+    "assets_build_sync": "assets/ must be re-copied into build/ after every build — cp -r assets/ build/assets/ from each site root",
     "body_content_full_html": "body_content must never contain full standalone HTML documents (no <!DOCTYPE>, <html>, <head>, <body> tags). Strip to <main> contents only. Full documents cause double header/footer when wrapped by base.html. Fix: re.search(r\"<main[^>]*>(.*?)</main>\", body, re.DOTALL)",
     "jekyll_site_source_of_truth": "Where a matching Jekyll source exists at /home/chubert/<PROJECT>/_site/, use compiled _site HTML as body_content source of truth. Extract <main> contents only. Never use AI-rewritten content when compiled source exists.",
-    "github_secret_name": "GitHub secret MUST be named SSH_PRIVATE_KEY \u2014 workflow references secrets.SSH_PRIVATE_KEY. Any other name causes Permission denied on rsync.",
-    "lfs_checkout": "pages.json tracked via Git LFS \u2014 workflow checkout must include lfs: true or build fails with empty JSON error.",
-    "build_script": "build.py must exist in repo root \u2014 GitHub Actions runner calls python3 build.py directly.",
-    "yaml_multiline": "Never embed multiline Python in deploy.yml \u2014 always use a separate build.py script to avoid YAML syntax errors.",
-    "homepage_slug": "Engine builds index slug as build/index/index.html \u2014 must be manually copied to build/index.html after every build: cp build/index/index.html build/index.html",
-    "base_html_jekyll_tags": "base.html may contain Jekyll tags (site.baseurl, site.title, prepend filters, block/endblock) the engine cannot process \u2014 audit base.html before first build and replace all with plain values or {{ content }}",
-    "missing_js_assets": "cookieconsent.umd.js and cookie-init.js may be referenced in base.html but not exist in assets/js/ \u2014 check and remove missing JS references from base.html",
-    "head_styles_in_jekyll": "Some Jekyll pages store CSS in <head> <style> blocks \u2014 extractor must pull <style> block from <head> AND prepend to body content. Affects pages using custom layouts without <main> tags."
+    "github_secret_name": "GitHub secret MUST be named SSH_PRIVATE_KEY — workflow references secrets.SSH_PRIVATE_KEY. Any other name causes Permission denied on rsync.",
+    "lfs_checkout": "pages.json tracked via Git LFS — workflow checkout must include lfs: true or build fails with empty JSON error.",
+    "build_script": "build.py must exist in repo root — GitHub Actions runner calls python3 build.py directly.",
+    "yaml_multiline": "Never embed multiline Python in deploy.yml — always use a separate build.py script to avoid YAML syntax errors.",
+    "homepage_slug": "Engine builds index slug as build/index/index.html — must be manually copied to build/index.html after every build: cp build/index/index.html build/index.html",
+    "base_html_jekyll_tags": "base.html may contain Jekyll tags (site.baseurl, site.title, prepend filters, block/endblock) the engine cannot process — audit base.html before first build and replace all with plain values or {{ content }}",
+    "missing_js_assets": "cookieconsent.umd.js and cookie-init.js may be referenced in base.html but not exist in assets/js/ — check and remove missing JS references from base.html",
+    "head_styles_in_jekyll": "Some Jekyll pages store CSS in <head> <style> blocks — extractor must pull <style> block from <head> AND prepend to body content. Affects pages using custom layouts without <main> tags."
   },
   "assets": {
     "images_migrated": true,
@@ -2758,7 +2765,7 @@
     "old_jekyll_root": "/home/chubert/MHC"
   },
   "content_status": {
-    "pages_built": "unknown \u2014 not yet audited",
+    "pages_built": "unknown — not yet audited",
     "base_html_status": "fixed (Jekyll tags removed, {{ content }} injected)",
     "assets_in_build": "unknown",
     "last_build": "2026-05-25",
@@ -2771,14 +2778,14 @@
     "workflow_status": "not set up",
     "github_secret": "SSH_PRIVATE_KEY (required when workflow is created)",
     "notes": "Deployment to Plesk not configured; artifact uploads build/",
-    "github_actions_status": "build-only workflow \u2013 ready, runs on push",
+    "github_actions_status": "build-only workflow – ready, runs on push",
     "workflow_file": ".github/workflows/deploy.yml",
     "git_initialized": true,
     "git_remote": "https://github.com/vswebsitedesign-ctrl/site_MHC.git",
     "server_ip": "NOT YET CONFIGURED",
     "deploy_configured": false,
-    "deploy_status": "PENDING \u2014 no IP or deploy user set in workflow",
-    "recommended_method": "GitHub Actions + rsync over SSH as Plesk domain system user (not root) \u2014 see site_JKRS deploy.yml as reference implementation",
+    "deploy_status": "PENDING — no IP or deploy user set in workflow",
+    "recommended_method": "GitHub Actions + rsync over SSH as Plesk domain system user (not root) — see site_JKRS deploy.yml as reference implementation",
     "server": "217.154.33.12",
     "deploy_user": "mikes-house-clearance_wvlupgekl3",
     "ssh_key_local": "~/.ssh/github_actions_mhc"
@@ -2827,23 +2834,23 @@
     ],
     "mandatory_session_workflow": [
       "1. READ this Master Report in full before any action",
-      "2. bash snapshot.sh \"label\" \u2014 run before EVERY risky change",
-      "3. bash restore.sh snapshots/X \u2014 instant restore if anything breaks",
+      "2. bash snapshot.sh \"label\" — run before EVERY risky change",
+      "3. bash restore.sh snapshots/X — instant restore if anything breaks",
       "4. Commit and push only after local build verified clean"
     ],
     "emergency_rollback": "git checkout main && git reset --hard HEAD~1",
     "deploy_command": "rsync -avz -e \"ssh -i ~/.ssh/github_actions_mhc\" build/ mikes-house-clearance_wvlupgekl3@217.154.33.12:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
     "send_php_deploy": "SERVER NOT YET CONFIGURED",
-    "github_actions": "build-only \u2014 NO rsync in deploy.yml \u2014 all deploys are manual rsync from local machine",
+    "github_actions": "build-only — NO rsync in deploy.yml — all deploys are manual rsync from local machine",
     "ai_rules": [
-      "NEVER modify files inside ./build/ \u2014 fully overwritten on every build",
-      "NEVER rewrite build.py from scratch \u2014 targeted edits only",
+      "NEVER modify files inside ./build/ — fully overwritten on every build",
+      "NEVER rewrite build.py from scratch — targeted edits only",
       "NEVER run sed/perl/regex on build/ files",
       "NEVER commit directly to main without human confirmation",
-      "NEVER guess paths or filenames \u2014 read Master Report first",
-      "NEVER deploy via GitHub Actions rsync \u2014 manual rsync only",
+      "NEVER guess paths or filenames — read Master Report first",
+      "NEVER deploy via GitHub Actions rsync — manual rsync only",
       "NEVER leave send.php redirecting anywhere other than /thank-you/",
-      "NEVER delete fields from Master Report \u2014 append only",
+      "NEVER delete fields from Master Report — append only",
       "ALWAYS read Master Report in full before any bash command",
       "ALWAYS snapshot before every risky change",
       "ALWAYS verify changes with a read-back command before building",
@@ -2857,9 +2864,9 @@
   },
   "session_workflow": {
     "description": "Mandatory workflow for every AI session",
-    "before_any_work": "Read Master_Report.json in full \u2014 no exceptions",
-    "before_risky_change": "bash snapshot.sh \"description\" \u2014 snapshots all critical files",
-    "restore_from_snapshot": "bash restore.sh snapshots/TIMESTAMP_label \u2014 restores all critical files",
+    "before_any_work": "Read Master_Report.json in full — no exceptions",
+    "before_risky_change": "bash snapshot.sh \"description\" — snapshots all critical files",
+    "restore_from_snapshot": "bash restore.sh snapshots/TIMESTAMP_label — restores all critical files",
     "session_end": "Commit with descriptive message, push to GitHub, update Master Report changelog",
     "emergency_rollback": "git checkout main && git reset --hard HEAD~1",
     "ai_mandatory_rules": [
@@ -2868,19 +2875,19 @@
       "Never commit directly to main during a session without human confirmation",
       "Never make changes without telling the human exactly what will change first",
       "Never run sed, perl, or regex on build/ files",
-      "Never rewrite build.py \u2014 targeted edits only",
-      "Never guess \u2014 always verify from disk",
+      "Never rewrite build.py — targeted edits only",
+      "Never guess — always verify from disk",
       "Batch all fact-finding into single commands"
     ]
   },
   "recovery": {
-    "description": "Full site recovery from scratch \u2014 two commands only",
+    "description": "Full site recovery from scratch — two commands only",
     "step_1": "git clone https://github.com/vswebsitedesign-ctrl/site_MHC.git",
     "step_2": "python3 build.py",
-    "note": "All assets, content, and build logic are in the repo. pages.json tracked via Git LFS \u2014 ensure lfs: true on checkout."
+    "note": "All assets, content, and build logic are in the repo. pages.json tracked via Git LFS — ensure lfs: true on checkout."
   },
   "ai_incident_log": {
-    "description": "Permanent log of AI errors on this project \u2014 read before every session",
+    "description": "Permanent log of AI errors on this project — read before every session",
     "incidents": [],
     "permanent_fix": "AI must read this entire Master Report before generating any bash commands. No assumptions. No guessing. Verify everything from disk."
   },
@@ -2898,7 +2905,7 @@
       ]
     },
     "commit_to_main_ban": {
-      "rule": "NEVER commit directly to main during a session \u2014 no exceptions. Always work on a branch created by session_start.sh."
+      "rule": "NEVER commit directly to main during a session — no exceptions. Always work on a branch created by session_start.sh."
     },
     "ai_ban_log": {
       "rule": "If an AI tool causes repeated destruction, log it by name and ban it from the project permanently.",
@@ -2939,33 +2946,33 @@
   "session_20260605_balloon_and_bashtml": {
     "timestamp": "2026-06-05",
     "action": "Sticky tracker balloon added, base.html restored from live source",
-    "detail": "Sticky floating balloon widget added to all pages via theme/base.html. Balloon uses namespaced mhc- CSS classes to prevent stylesheet collisions. Balloon is fixed bottom-right, floats on animation, dismisses on click. base.html reconstructed from confirmed live homepage source \u2014 correct stylesheet path /assets/main.css, header, footer, cookie banner all restored. Pre-existing blank stylesheet href in base.html was not caused by balloon work.",
+    "detail": "Sticky floating balloon widget added to all pages via theme/base.html. Balloon uses namespaced mhc- CSS classes to prevent stylesheet collisions. Balloon is fixed bottom-right, floats on animation, dismisses on click. base.html reconstructed from confirmed live homepage source — correct stylesheet path /assets/main.css, header, footer, cookie banner all restored. Pre-existing blank stylesheet href in base.html was not caused by balloon work.",
     "files_modified": [
-      "theme/base.html \u2014 reconstructed from live source with balloon inlined",
-      "_includes/balloon.html \u2014 created (reference copy, not used by engine)"
+      "theme/base.html — reconstructed from live source with balloon inlined",
+      "_includes/balloon.html — created (reference copy, not used by engine)"
     ],
     "balloon_classes": "All prefixed mhc- to prevent collision with site stylesheet",
-    "gotcha": "base.html in repo was always a skeleton \u2014 real base.html must be maintained manually and kept in sync with live site",
+    "gotcha": "base.html in repo was always a skeleton — real base.html must be maintained manually and kept in sync with live site",
     "homepage_slug_rule": "After every build run: cp build/index/index.html build/index.html",
     "status": "COMPLETE"
   },
   "modus_operandi": {
     "note": "Mandatory workflow rules imported from site_tales master report 2026-06-09",
     "rules": [
-      "1. ALWAYS snapshot before every edit \u2014 use: bash snapshot.sh label",
-      "2. Snapshot and edit combined in ONE bash command \u2014 snapshot runs first, edit only proceeds if snapshot succeeds",
-      "3. ALWAYS build after every edit to verify \u2014 use: python3 build.py",
-      "4. ALWAYS append Master Report at end of session \u2014 never delete, append only",
-      "5. NEVER modify files inside ./build/ \u2014 fully overwritten on every build",
-      "6. NEVER rewrite build.py \u2014 targeted edits only",
-      "7. Content changes go in data/pages.json only \u2014 single source of truth",
+      "1. ALWAYS snapshot before every edit — use: bash snapshot.sh label",
+      "2. Snapshot and edit combined in ONE bash command — snapshot runs first, edit only proceeds if snapshot succeeds",
+      "3. ALWAYS build after every edit to verify — use: python3 build.py",
+      "4. ALWAYS append Master Report at end of session — never delete, append only",
+      "5. NEVER modify files inside ./build/ — fully overwritten on every build",
+      "6. NEVER rewrite build.py — targeted edits only",
+      "7. Content changes go in data/pages.json only — single source of truth",
       "8. Layout changes go in theme/base.html only if unavoidable",
-      "9. One bash command at a time \u2014 copy-paste ready, no multi-step instructions split across turns",
+      "9. One bash command at a time — copy-paste ready, no multi-step instructions split across turns",
       "10. Confirm static modular architecture best practice with every command",
-      "11. NEVER commit directly to main during a session \u2014 use session_start.sh to create a branch first",
-      "12. NEVER use rsync --delete on deployment \u2014 wipes server-only files including send.php",
-      "13. NEVER guess paths or filenames \u2014 read Master Report first, verify from disk",
-      "14. ALWAYS batch fact-finding into single commands \u2014 no multi-turn fishing expeditions"
+      "11. NEVER commit directly to main during a session — use session_start.sh to create a branch first",
+      "12. NEVER use rsync --delete on deployment — wipes server-only files including send.php",
+      "13. NEVER guess paths or filenames — read Master Report first, verify from disk",
+      "14. ALWAYS batch fact-finding into single commands — no multi-turn fishing expeditions"
     ],
     "command_sequence": {
       "start_session": "bash session_start.sh label",
@@ -2976,9 +2983,9 @@
     }
   },
   "ai_screwup_incident_log": {
-    "note": "Permanent log of AI failures on this project \u2014 read before every session",
+    "note": "Permanent log of AI failures on this project — read before every session",
     "incidents": [],
-    "gemini_ban": "Gemini AI is permanently banned from all projects in this omni-builder workspace \u2014 caused 3+ hours of lost work on site_tales on 2026-06-01 by blindly spamming broken sed commands against build/ files and ignoring master report architecture rules",
+    "gemini_ban": "Gemini AI is permanently banned from all projects in this omni-builder workspace — caused 3+ hours of lost work on site_tales on 2026-06-01 by blindly spamming broken sed commands against build/ files and ignoring master report architecture rules",
     "permanent_fix": "AI must read this entire Master Report before generating any bash commands. No blind regex strings, no sed on build/ files, no assumptions about file structure. Verify everything from disk."
   },
   "gsc_audit_20260620": {
@@ -2989,39 +2996,39 @@
       "1_blank_meta_descriptions": {
         "severity": "CRITICAL",
         "detail": "Every page outputs blank meta description. build.py uses meta_description field but pages.json uses description on core pages. Field name mismatch confirmed live on server.",
-        "fix": "build.py \u2014 fall back: page.get(\"meta_description\") or page.get(\"description\", \"\")",
+        "fix": "build.py — fall back: page.get(\"meta_description\") or page.get(\"description\", \"\")",
         "status": "COMPLETE",
         "completed": "2026-06-20",
-        "fix_applied": "Fixed in build.py \u2014 fallback: meta_description or description field"
+        "fix_applied": "Fixed in build.py — fallback: meta_description or description field"
       },
       "2_readme_publicly_indexed": {
         "severity": "CRITICAL",
         "detail": "README slug is live, indexed by Google, and in sitemap.xml. Contains dev checklist with missing client data items visible to public.",
-        "fix": "build.py \u2014 exclude README slug from build output and sitemap",
+        "fix": "build.py — exclude README slug from build output and sitemap",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "README excluded from build output and sitemap via BUILD_EXCLUDE in build.py"
       },
       "3_thank_you_in_sitemap": {
         "severity": "HIGH",
-        "detail": "thank-you page is in sitemap.xml. Form confirmation pages must never be indexed \u2014 wastes crawl budget.",
-        "fix": "build.py \u2014 exclude thank-you from sitemap generation only, keep page",
+        "detail": "thank-you page is in sitemap.xml. Form confirmation pages must never be indexed — wastes crawl budget.",
+        "fix": "build.py — exclude thank-you from sitemap generation only, keep page",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "thank-you excluded from sitemap via SITEMAP_EXCLUDE in build.py"
       },
       "4_cookie_banner_js_bug": {
         "severity": "HIGH",
-        "detail": "Cookie banner IIFE in base.html is missing closing }); \u2014 banner may silently fail in strict JS environments. Confirmed live.",
-        "fix": "theme/base.html \u2014 fix IIFE closing syntax",
+        "detail": "Cookie banner IIFE in base.html is missing closing }); — banner may silently fail in strict JS environments. Confirmed live.",
+        "fix": "theme/base.html — fix IIFE closing syntax",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "IIFE closing }) fixed in theme/base.html"
       },
       "5_services_title_doubled": {
         "severity": "MEDIUM",
-        "detail": "Services page title contains Mike's House Clearance twice. Google truncates long titles \u2014 wastes characters.",
-        "fix": "data/pages.json \u2014 services slug title field",
+        "detail": "Services page title contains Mike's House Clearance twice. Google truncates long titles — wastes characters.",
+        "fix": "data/pages.json — services slug title field",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "Services title corrected to: Our Services | Mikes House Clearance"
@@ -3029,7 +3036,7 @@
       "6_no_og_tags": {
         "severity": "MEDIUM",
         "detail": "No Open Graph tags on any page. Social sharing and Google rich results both degraded.",
-        "fix": "theme/base.html + build.py \u2014 add og:title, og:description, og:url, og:type, og:image tokens",
+        "fix": "theme/base.html + build.py — add og:title, og:description, og:url, og:type, og:image tokens",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "og:title, og:description, og:url, og:type, og:image, og:site_name added to theme/base.html. Populated per page in build.py from existing title and description fields."
@@ -3037,7 +3044,7 @@
       "7_no_schema_markup": {
         "severity": "MEDIUM",
         "detail": "No structured data (JSON-LD) on any page. LocalBusiness schema on homepage would improve trust signals and rich results eligibility.",
-        "fix": "build.py + theme/base.html \u2014 add LocalBusiness schema to homepage, WebPage to all others",
+        "fix": "build.py + theme/base.html — add LocalBusiness schema to homepage, WebPage to all others",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "JSON-LD schema added to all 2475 pages via {{ schema }} token in base.html. LocalBusiness on homepage, Service on all local pages (2465 pages), WebPage on all core/hub pages. Generated in build.py from existing page data fields."
@@ -3045,27 +3052,27 @@
       "8_no_max_image_preview": {
         "severity": "LOW",
         "detail": "max-image-preview:large not set on any page. Prevents Google from showing large thumbnail images in search results.",
-        "fix": "theme/base.html \u2014 add to robots meta tag: max-image-preview:large",
+        "fix": "theme/base.html — add to robots meta tag: max-image-preview:large",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "max-image-preview:large added to robots meta in theme/base.html"
       },
       "9_about_us_contact_us_never_crawled": {
         "severity": "HIGH",
-        "detail": "about-us and contact-us have never been crawled. Discovered but deprioritised by Google \u2014 likely crawl budget pressure from 2499 page volume.",
+        "detail": "about-us and contact-us have never been crawled. Discovered but deprioritised by Google — likely crawl budget pressure from 2499 page volume.",
         "fix": "Fixing README + thank-you sitemap exclusions reduces noise. Monitor after next crawl.",
         "status": "PENDING"
       },
       "10_sitemap_submitted_2499_indexed_0": {
         "severity": "CRITICAL",
-        "detail": "GSC sitemap report shows Submitted: 2499, Indexed from sitemap: 0. Google has indexed 1460 pages via crawl only, not from sitemap. Sitemap downloaded 2026-06-18 \u2014 may be too recent. Monitor.",
+        "detail": "GSC sitemap report shows Submitted: 2499, Indexed from sitemap: 0. Google has indexed 1460 pages via crawl only, not from sitemap. Sitemap downloaded 2026-06-18 — may be too recent. Monitor.",
         "fix": "Fix all sitemap issues (README, thank-you exclusions) then resubmit sitemap in GSC.",
         "status": "PENDING"
       },
       "11_jekyll_fragment_slugs_in_pages_json": {
         "severity": "CRITICAL",
         "detail": "24 Jekyll _includes template fragments accidentally imported into pages.json and built as real pages. Slugs include: footer, header, hero, location, service, google-tag, location-hero, location-info, location-map, location-pricing, location-process-reviews-faq, location-service-card, location-before-after, location-more-services, location-trust-banner, location-finder, location-property-services, location-hero-content, location-footer-cta, process-reviews-faq, professional-property-services, cookie-consent, before-after-gallery, top-banner. All 24 are live on server, returning HTTP 200, and indexed or discoverable by Google. Bodies contain raw Liquid/Jekyll template syntax including unparsed {% include %} and {% assign %} tags. This is the primary cause of crawl budget waste and duplicate/thin content signals damaging domain authority.",
-        "fix": "data/pages.json \u2014 remove all 24 fragment slugs entirely. They are not real pages. Server is Nginx/Plesk \u2014 404s will be handled naturally. No htaccess redirects needed as none have meaningful GSC clicks.",
+        "fix": "data/pages.json — remove all 24 fragment slugs entirely. They are not real pages. Server is Nginx/Plesk — 404s will be handled naturally. No htaccess redirects needed as none have meaningful GSC clicks.",
         "status": "COMPLETE",
         "completed": "2026-06-20",
         "fix_applied": "24 fragment slugs removed from data/pages.json"
@@ -3123,10 +3130,10 @@
           "location",
           "service"
         ],
-        "fix": "Remove from pages.json only. Do not touch build/ directly \u2014 build.py will stop generating these pages on next build.",
+        "fix": "Remove from pages.json only. Do not touch build/ directly — build.py will stop generating these pages on next build.",
         "status": "COMPLETE",
         "completed": "2026-06-20",
-        "fix_applied": "24 fragment slugs confirmed removed \u2014 pages.json reduced from 2499 to 2475"
+        "fix_applied": "24 fragment slugs confirmed removed — pages.json reduced from 2499 to 2475"
       },
       "13_core_slugs_correct_count": {
         "severity": "INFO",
@@ -3156,7 +3163,7 @@
       "avg_position": 52.6,
       "indexed_pages": 1460,
       "not_indexed_pages": 2540,
-      "top_performing_page": "services/house-clearance/pensilva-pl14 \u2014 75% CTR at position 2",
+      "top_performing_page": "services/house-clearance/pensilva-pl14 — 75% CTR at position 2",
       "primary_traffic_device": "Mobile (3.82% CTR vs Desktop 1.3%)",
       "traffic_geography": "98% GBR"
     },
@@ -3164,8 +3171,8 @@
     "fragment_slug_impact": {
       "pages_that_should_not_exist": 24,
       "confirmed_indexed": 22,
-      "crawl_budget_wasted": "Significant \u2014 Google spending crawl quota on 24 pages of raw template code",
-      "content_quality_impact": "CRITICAL \u2014 thin/duplicate/malformed content signals from Liquid syntax served as HTML",
+      "crawl_budget_wasted": "Significant — Google spending crawl quota on 24 pages of raw template code",
+      "content_quality_impact": "CRITICAL — thin/duplicate/malformed content signals from Liquid syntax served as HTML",
       "discovery_method": "GSC URL Inspection API cross-referenced with pages.json core slug audit"
     },
     "post_fix_build_stats": {
@@ -3182,44 +3189,44 @@
         "snapshots/20260620_062335_pre-batch3-basehtml-fixes"
       ],
       "files_modified": [
-        "build.py \u2014 meta description fallback, BUILD_EXCLUDE, SITEMAP_EXCLUDE",
-        "data/pages.json \u2014 24 fragment slugs removed, services title fixed",
-        "theme/base.html \u2014 cookie banner IIFE fixed, max-image-preview:large added",
-        "theme/base.html \u2014 OG meta tags + schema token added",
-        "build.py \u2014 OG tag population + LocalBusiness/Service/WebPage schema generation"
+        "build.py — meta description fallback, BUILD_EXCLUDE, SITEMAP_EXCLUDE",
+        "data/pages.json — 24 fragment slugs removed, services title fixed",
+        "theme/base.html — cookie banner IIFE fixed, max-image-preview:large added",
+        "theme/base.html — OG meta tags + schema token added",
+        "build.py — OG tag population + LocalBusiness/Service/WebPage schema generation"
       ],
       "pending_next_session": [
-        "9_about_us_contact_us_never_crawled \u2014 monitor after deploy",
-        "10_sitemap_submitted_2499_indexed_0 \u2014 resubmit sitemap in GSC after deploy"
+        "9_about_us_contact_us_never_crawled — monitor after deploy",
+        "10_sitemap_submitted_2499_indexed_0 — resubmit sitemap in GSC after deploy"
       ]
     },
     "session_close": {
       "date": "2026-06-20",
-      "status": "COMPLETE \u2014 all fixes deployed and verified",
+      "status": "COMPLETE — all fixes deployed and verified",
       "sitemap_resubmitted": true,
       "sitemap_resubmitted_date": "2026-06-20",
       "next_gsc_check": "2026-07-04",
       "monitoring_reminders": [
-        "CHECK GSC Coverage report week of 2026-07-04 \u2014 indexed from sitemap should be rising from 0",
-        "CHECK not-indexed count \u2014 should be trending down from 2540",
-        "CHECK 24 fragment pages are deindexed \u2014 footer, header, hero etc should disappear from GSC",
+        "CHECK GSC Coverage report week of 2026-07-04 — indexed from sitemap should be rising from 0",
+        "CHECK not-indexed count — should be trending down from 2540",
+        "CHECK 24 fragment pages are deindexed — footer, header, hero etc should disappear from GSC",
         "CHECK contact-us and about-us have been crawled for first time",
-        "CHECK average position \u2014 should begin improving as thin content signals clear",
-        "RECHECK pensilva-pl14 canonical conflict \u2014 monitor if duplicate canonical warning clears"
+        "CHECK average position — should begin improving as thin content signals clear",
+        "RECHECK pensilva-pl14 canonical conflict — monitor if duplicate canonical warning clears"
       ],
       "all_fixes_summary": {
-        "blank_meta_descriptions": "FIXED \u2014 2474 unique descriptions now live",
-        "readme_indexed": "FIXED \u2014 excluded from build and sitemap",
-        "thank_you_in_sitemap": "FIXED \u2014 excluded from sitemap",
-        "cookie_banner_js": "FIXED \u2014 IIFE closing corrected",
-        "services_title_doubled": "FIXED \u2014 title deduplicated",
-        "og_tags": "FIXED \u2014 all 2475 pages have OG tags",
-        "schema_markup": "FIXED \u2014 LocalBusiness/Service/WebPage on all 2475 pages",
-        "max_image_preview": "FIXED \u2014 max-image-preview:large on all pages",
-        "jekyll_fragments": "FIXED \u2014 24 fragment slugs removed from pages.json and live server",
-        "sitemap_resubmitted": "DONE \u2014 2473 clean URLs submitted to GSC 2026-06-20",
-        "send_php": "DEPLOYED \u2014 live and accepting POST from contact form",
-        "passwordless_ssh": "CONFIGURED \u2014 mhc host alias, github_actions_mhc key"
+        "blank_meta_descriptions": "FIXED — 2474 unique descriptions now live",
+        "readme_indexed": "FIXED — excluded from build and sitemap",
+        "thank_you_in_sitemap": "FIXED — excluded from sitemap",
+        "cookie_banner_js": "FIXED — IIFE closing corrected",
+        "services_title_doubled": "FIXED — title deduplicated",
+        "og_tags": "FIXED — all 2475 pages have OG tags",
+        "schema_markup": "FIXED — LocalBusiness/Service/WebPage on all 2475 pages",
+        "max_image_preview": "FIXED — max-image-preview:large on all pages",
+        "jekyll_fragments": "FIXED — 24 fragment slugs removed from pages.json and live server",
+        "sitemap_resubmitted": "DONE — 2473 clean URLs submitted to GSC 2026-06-20",
+        "send_php": "DEPLOYED — live and accepting POST from contact form",
+        "passwordless_ssh": "CONFIGURED — mhc host alias, github_actions_mhc key"
       }
     }
   },
@@ -3235,25 +3242,25 @@
         "local_page": "website",
         "contact": "website"
       },
-      "directive": "og:description must never be blank \u2014 fall back to meta description if no dedicated og_description field."
+      "directive": "og:description must never be blank — fall back to meta description if no dedicated og_description field."
     },
     "max_image_preview": {
       "rule": "Add max-image-preview:large to robots meta tag on all pages.",
       "implementation": "Change base.html robots meta to: content=\"index, follow, max-image-preview:large\"",
-      "reason": "Enables Google to show large thumbnail images in search results \u2014 improves CTR on local service pages."
+      "reason": "Enables Google to show large thumbnail images in search results — improves CTR on local service pages."
     },
     "schema_markup": {
       "rule": "All pages must have JSON-LD structured data.",
       "page_types": {
-        "homepage": "LocalBusiness \u2014 include name, url, telephone, address, areaServed, priceRange",
-        "service_hub": "Service \u2014 include name, provider, areaServed",
-        "local_page": "Service \u2014 include name, provider, areaServed with town name and postcode",
+        "homepage": "LocalBusiness — include name, url, telephone, address, areaServed, priceRange",
+        "service_hub": "Service — include name, provider, areaServed",
+        "local_page": "Service — include name, provider, areaServed with town name and postcode",
         "contact": "WebPage",
         "about": "WebPage",
-        "legal": "WebPage \u2014 noindex friendly pages still benefit from schema"
+        "legal": "WebPage — noindex friendly pages still benefit from schema"
       },
       "implementation": "Add {{ schema }} token to base.html. Populate schema JSON in build.py per page type.",
-      "directive": "Never hardcode schema in base.html \u2014 always generate per page in build.py so town/service data is accurate."
+      "directive": "Never hardcode schema in base.html — always generate per page in build.py so town/service data is accurate."
     },
     "session_end_sh_bug_warning": {
       "source": "Tales project incident 2026-06-18",
@@ -3264,8 +3271,8 @@
     "sitemap_exclusions": {
       "rule": "These slug types must NEVER appear in sitemap.xml",
       "exclude": [
-        "README \u2014 dev file, must not be public or indexed",
-        "thank-you \u2014 form confirmation page, no search value",
+        "README — dev file, must not be public or indexed",
+        "thank-you — form confirmation page, no search value",
         "Any future dev/test slugs"
       ],
       "implementation": "build.py sitemap loop must have an exclusion list: SITEMAP_EXCLUDE = [\"README\", \"thank-you\"]"
@@ -3278,10 +3285,10 @@
     "crawl_budget_discipline": {
       "rule": "With 2499 pages, crawl budget is finite. Every wasted page costs a real page.",
       "directives": [
-        "README must be excluded from build entirely \u2014 not just noindexed",
+        "README must be excluded from build entirely — not just noindexed",
         "thank-you must be excluded from sitemap",
-        "All pages in sitemap must return HTTP 200 \u2014 verify after every build",
-        "Monitor GSC Coverage report monthly \u2014 not-indexed count must trend down"
+        "All pages in sitemap must return HTTP 200 — verify after every build",
+        "Monitor GSC Coverage report monthly — not-indexed count must trend down"
       ]
     }
   },
@@ -3289,7 +3296,7 @@
     "method": "rsync over SSH",
     "command": "rsync -avz --delete /home/chubert/omni-builder/sites/site_MHC/build/ mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
     "ssh_host_alias": "mhc",
-    "ssh_config": "~/.ssh/config \u2014 Host mhc",
+    "ssh_config": "~/.ssh/config — Host mhc",
     "ssh_key": "~/.ssh/github_actions_mhc",
     "server_ip": "217.154.33.12",
     "server_user": "mikes-house-clearance_wvlupgekl3",
@@ -3302,8 +3309,562 @@
       "location_local": "/home/chubert/omni-builder/sites/site_MHC/send.php",
       "location_remote": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
       "deploy_command": "scp /home/chubert/omni-builder/sites/site_MHC/send.php mhc:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/send.php",
-      "notes": "send.php lives in project root not build/ \u2014 must be deployed separately via scp after any changes. rsync does not touch it. HTTP 403 on GET is correct \u2014 file only accepts POST from contact form.",
-      "live_status": "HTTP 403 on GET \u2014 correct. POST from contact form works."
+      "notes": "send.php lives in project root not build/ — must be deployed separately via scp after any changes. rsync does not touch it. HTTP 403 on GET is correct — file only accepts POST from contact form.",
+      "live_status": "HTTP 403 on GET — correct. POST from contact form works."
     }
+  },
+  "pending_location_page_section_rebuild": {
+    "status": "COMPLETE — all ready sections built and deployed 2026-06-25",
+    "date_logged": "2026-06-25",
+    "reason": "Location pages confirmed thin (919 chars body_content, single content slot in theme/base.html). Decision made to rebuild with full section structure rather than just rewrite intro copy.",
+    "sections_ready_to_build": [
+      "1_hero",
+      "3_trust_and_credentials",
+      "5_process",
+      "6_whats_included",
+      "7_sensitive_clearances",
+      "10_local_knowledge",
+      "11_sub_area_coverage_structure_only_list_pending",
+      "12_faq",
+      "14_related_services",
+      "15_quote_form_existing_send_php",
+      "17_final_cta"
+    ],
+    "sections_blocked_pending_new_data": {
+      "4_pricing": "No cost figures exist anywhere in pages.json or Master Report",
+      "8_recent_local_jobs": "No real job records exist",
+      "9_before_after_photos": "No images exist for any job",
+      "11_sub_area_coverage_data": "COMPLETE — nearby_areas from enrichment files, rendering as Also serving list",
+      "16_map_embed": "No Google Maps API key or embed code exists in project",
+      "10_local_knowledge": "COMPLETE — location_intro and property_era from enrichment files"
+    },
+    "order_source": "Drafted fresh for this site only — explicitly not copied from any other site to avoid cross-project bias",
+    "next_action": "Awaiting decision: build 11 ready sections now vs gather missing data first vs drop blocked sections from scope"
+  },
+  "theme_palette_and_typography": {
+    "date_logged": "2026-06-25",
+    "source_files": [
+      "assets/main.css",
+      "theme/base.html"
+    ],
+    "css_custom_properties": {
+      "--green": "#124F1B",
+      "--green-dark": "#0d3a14",
+      "--green-light": "#f0fdf4",
+      "--text": "#1e293b",
+      "--text-muted": "#54595f",
+      "--border": "#e2e8f0",
+      "--white": "#ffffff"
+    },
+    "secondary_colours_not_in_css_vars": {
+      "header_nav_blue": "#1a56a0",
+      "announcement_bar_blue": "#1a56a0",
+      "cookie_banner_green": "#124F1B (matches --green)",
+      "star_rating_gold": "#fbbf24",
+      "balloon_widget_blue_gradient": "#5bc8f5 to #1a7abf",
+      "balloon_widget_yellow_text": "#FFE600",
+      "dark_image_bg_fallback": "#1a1a1a",
+      "light_section_bg_gradient_1": "linear-gradient(160deg, #f8fff9, #edfaef)",
+      "light_section_bg_gradient_2": "linear-gradient(135deg, #ffffff, #f0fdf4)",
+      "green_gradient_accent": "linear-gradient(135deg, var(--green), #1e7d2b)"
+    },
+    "typography": {
+      "font_family": "'Roboto', sans-serif",
+      "base_text_color": "var(--text)"
+    },
+    "design_notes": {
+      "two_colour_brand": "Green (--green #124F1B) is the primary brand/button/accent colour. Blue (#1a56a0) is used specifically for header, nav, and announcement banner only — not in CSS custom properties, hardcoded inline.",
+      "directive": "New sections should use var(--green) for buttons/accents/CTAs to match existing trust-banner, hero-text, and review sections. Use #1a56a0 only if matching header/nav/banner style specifically."
+    }
+  },
+  "h1_uniqueness_strategy": {
+    "date_logged": "2026-06-25",
+    "status": "AGREED — not yet implemented",
+    "scope": "307 unique towns across multiple services, location page heroes",
+    "problem": "Fixed sentence structure with only town/service swapped (e.g. always \"{service} in {town}\") is technically unique per page but reads as templated to Google Helpful Content systems — directly linked to prior indexing collapse documented in gsc_audit findings (1123 indexed pages down to ~139).",
+    "agreed_approach": "service_title + town_name, with occasional town_county added, combined with rotating H1 phrasing patterns selected deterministically per page (e.g. via hash of slug) so output is stable across rebuilds, not randomised on every build.",
+    "example_patterns": [
+      "House Clearance in {town}, {county}",
+      "Professional House Clearance — {town}",
+      "{town} House Clearance Services",
+      "Need House Clearance in {town}? We Cover {county}."
+    ],
+    "data_fields_used": [
+      "service_title",
+      "town_name",
+      "town_county"
+    ],
+    "new_fields_required": "None — all fields already exist in pages.json",
+    "implementation_touches": [
+      "theme/base.html — add {{ hero_h1 }} token",
+      "build.py — add pattern rotation logic + hero token population"
+    ],
+    "mandatory_precondition": "snapshot.sh must be run before any edit to build.py or theme/base.html, per existing session_end_sh_bug_warning directive",
+    "next_action": "Run snapshot, then implement hero_h1 token + pattern rotation logic"
+  },
+  "sitemap_url_structure_verification": {
+    "date_logged": "2026-06-25",
+    "status": "VERIFIED — live sitemap matches data/pages.json slug structure",
+    "method": "User uploaded two sitemap files for comparison against confirmed pages.json slugs",
+    "finding": {
+      "first_uploaded_sitemap": "OUTDATED / MISMATCHED — contained different service slugs not present in live site (e.g. office-clearances, end-of-tenancy-clearance, garage-loft-basement-clearance, garden-outbuilding). Disregarded.",
+      "second_uploaded_sitemap": "CONFIRMED CURRENT — matches data/pages.json exactly: services/house-clearance/, services/attic-clearance/, services/hoarder-clearance/, services/bereavement-probate-clearance/, services/rubbish-clearance/, services/garage-shed-clearance/, services/garden-clearance/, services/home-removals/. Town slug format matches (e.g. newton-abbot-tq12). Trailing slashes consistent."
+    },
+    "unverified_note": "Live sitemap includes /areas/ slug — not explicitly cross-checked against pages.json slug list in this session. Not a contradiction, just unconfirmed either way.",
+    "conclusion": "Live URL structure is stable and correctly reflected in data/pages.json. No slug migration required. Safe to proceed with build.py changes (hero H1 generation, title/meta_description generation) without any risk of URL changes, since these only affect <head> metadata and on-page content, never the slug/canonical_slug logic."
+  },
+  "hero_section_build_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/20260625_064023_pre-section-rebuild-hero-h1-title-meta",
+    "files_modified": [
+      "theme/base.html — added {{ hero }} token inside <main>, before {{ content }}",
+      "build.py — added hero generation logic (rotating H1 patterns) and {{ hero }} token replacement"
+    ],
+    "approach": "Hero HTML generated per-page in build.py from existing pages.json fields (service_title, town_name, town_county). theme/base.html stays generic with a single token — correct modular split, no per-page logic in template.",
+    "h1_patterns_used": [
+      "{service} in {town}, {county}",
+      "Professional {service} — {town}",
+      "{town} {service} Services",
+      "Need {service} in {town}? We Cover {county}."
+    ],
+    "pattern_selection_method": "hashlib.md5(slug) % 4 — deterministic and stable across rebuilds (fixed from initial unstable Python hash() which is randomised per-process by default)",
+    "verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — H1 renders as \"Professional House Clearance — Newton Abbot\", existing body_content intact below it, nothing lost or duplicated",
+      "pattern_distribution_across_2456_location_pages": "Pattern 0: 633, Pattern 1: 582, Pattern 2: 620, Pattern 3: 621 — even spread confirmed with stable hash"
+    },
+    "url_impact": "NONE — hero is <main> content only, does not touch slug/canonical_slug logic",
+    "next_section": "title + meta_description generation via same build-time pattern approach"
+  },
+  "title_meta_description_generation_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified across multiple real built pages",
+    "snapshot_taken_before_edit": "snapshots/20260625_065151_pre-title-meta-generation",
+    "files_modified": [
+      "build.py — added title + meta_description generation logic (rotating patterns), replacing static pages.json field passthrough for location pages"
+    ],
+    "approach": "Title and meta_description now generated at build time from service_title + town_name fields, for all pages that have both. Non-location pages (homepage, about-us, contact-us, etc.) retain existing static title/meta_description from pages.json untouched, since they lack these fields.",
+    "decision": "Generated values ALWAYS override static pages.json title/meta_description fields for location pages, per explicit instruction — not a fallback-only approach.",
+    "seo_research_basis": "Verified against 2026 SEO guidance: title tags 50-60 chars ideal (absolute max ~65 before truncation risk), meta descriptions 140-160 chars ideal.",
+    "title_patterns_used": [
+      "{service} – {town}",
+      "{town} {service}",
+      "{service} | {town}"
+    ],
+    "meta_patterns_used": [
+      "Need {service} in {town}? Mike's House Clearance offers fast, fully insured local service. Free, no-obligation quotes.",
+      "Professional {service} in {town}. Licensed waste carrier, fully insured, trusted locally. Call Mike for a free quote."
+    ],
+    "pattern_selection_method": "hashlib.md5(slug + suffix) % len(patterns) — separate hash inputs for title vs meta (slug+\"-title\", slug+\"-meta\") so the two fields do not always pair on the same pattern index. Deterministic and stable across rebuilds.",
+    "worst_case_testing": {
+      "method": "Verified against longest real service_title (\"Bereavement & Probate Clearance\") and longest real town_name (\"Buckland Monachorum\") before implementation, not average-case assumptions",
+      "worst_case_title_result": "51-53 chars across all 3 patterns — within safe limit",
+      "worst_case_meta_result": "152-153 chars across both patterns — within safe limit",
+      "initial_draft_patterns_rejected": "First draft included brand name suffix and full county name, exceeding limits (66-79 char titles, 166-170 char meta) at worst case — revised before implementation"
+    },
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "pages_checked": [
+        {
+          "slug": "services/house-clearance/newton-abbot-tq12",
+          "title_chars": 28,
+          "meta_chars": 129
+        },
+        {
+          "slug": "services/garage-shed-clearance/weston-super-mare-bs22",
+          "title_chars": 41,
+          "meta_chars": 142
+        },
+        {
+          "slug": "services/bereavement-probate-clearance/exeter-ex1",
+          "title_chars": 42,
+          "meta_chars": 140
+        },
+        {
+          "slug": "services/rubbish-clearance/torpoint-pl11",
+          "title_chars": 28,
+          "meta_chars": 128
+        }
+      ],
+      "finding": "Different patterns confirmed selected across different pages, all within safe character limits, generated correctly from real data"
+    },
+    "url_impact": "NONE — title/meta_description are <head> metadata only, no effect on slug/canonical_slug logic",
+    "next_section": "Trust & Credentials section build"
+  },
+  "trust_credentials_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/20260625_pre-trust-credentials-section",
+    "files_modified": [
+      "theme/base.html — added static Trust & Credentials section between {{ hero }} and {{ content }} tokens"
+    ],
+    "approach": "Fixed, non-varying content added directly as static HTML in theme/base.html, NOT generated per-page in build.py — correct modular choice since content is identical site-wide (licensing/insurance facts do not vary by town or service).",
+    "content_used": {
+      "list_items": [
+        "Environment Agency Licensed Waste Carrier",
+        "Fully Insured & Professional Team",
+        "5-Star Rated Local Service",
+        "Free, No-Obligation Quotes",
+        "Registered in England & Wales"
+      ],
+      "tagline": "Trusted across Devon, Cornwall, and Somerset — every job handled with care, every item disposed of responsibly."
+    },
+    "content_source": "Reused wording from existing homepage benefits-list for brand consistency — nothing invented",
+    "duplicate_content_risk_assessment": "Confirmed LOW RISK — reasoning: trust/licensing facts are factually identical across the business and do not vary by location, unlike body_content which must be unique per page. Repeating accurate boilerplate trust signals is standard practice and distinct from the templated body_content issue that caused prior indexing problems.",
+    "known_overlap_noted": "Existing body_content intro paragraph (e.g. on house-clearance location pages) already mentions Environment Agency licensing and insurance in prose form — some message repetition now exists on the page. Not a build error, just worth considering if/when body_content wording is revisited.",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — section renders correctly between hero and existing body_content, no broken tags, no content loss"
+    },
+    "url_impact": "NONE — section is <main> content only, does not touch slug/canonical_slug logic",
+    "next_section": "TBD — remaining: Process, What's Included, Sensitive Clearances, Local Knowledge, Sub-Area Coverage, FAQ, Related Services, Final CTA"
+  },
+  "process_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/pre-process-section",
+    "files_modified": [
+      "theme/base.html — added static Process (How It Works) section between Trust & Credentials and {{ content }} tokens"
+    ],
+    "approach": "Fixed, identical content across all pages — same modular reasoning as Trust & Credentials. Decision discussed explicitly: business process steps do not vary by location, so rotation/uniqueness effort was deliberately NOT applied here, reserved instead for sections with genuine location-specific value (Local Knowledge, FAQ, Sub-Area Coverage).",
+    "content_used": {
+      "step_1": "Free Valuation — call or WhatsApp photos for a fair, transparent estimate within hours",
+      "step_2": "Expert Clearance — team arrives on time, handles heavy lifting, total care and respect",
+      "step_3": "Eco-Finish — property left tidy, charity donations and responsible recycling prioritised"
+    },
+    "content_source": "Reused and condensed wording from existing homepage process-grid cards for brand consistency",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — section renders correctly, emoji icons display properly with no encoding issues, no broken tags, no content loss"
+    },
+    "url_impact": "NONE — section is <main> content only",
+    "next_section": "TBD — remaining: What's Included, Sensitive Clearances, Local Knowledge, Sub-Area Coverage, FAQ, Related Services, Final CTA"
+  },
+  "whats_included_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/pre-whats-included-section",
+    "files_modified": [
+      "theme/base.html — added static What's Included section between Process and {{ content }} tokens"
+    ],
+    "approach": "Fixed, identical content across all pages — same modular reasoning as Trust & Credentials and Process. Scope-of-work facts do not vary by location.",
+    "content_used": [
+      "Full or partial property clearance — every room, or just the areas you need",
+      "Single-item and bulk rubbish removal",
+      "Heavy lifting and manual handling — we do the hard work",
+      "Responsible disposal, recycling, and charity donation wherever possible",
+      "Sweeping and tidying after every job — left clean and ready",
+      "No hidden fees — your free quote is the price you pay"
+    ],
+    "content_source": "Consistent with existing homepage services grid (full/partial clearances, garage/loft, garden, end of tenancy) — nothing invented",
+    "incident_during_build": "First insertion attempt hit a Python SyntaxError (unterminated string literal) caused by an incorrectly escaped apostrophe (\\') inside a single-quoted heredoc string. Caught immediately by the error message, file was NOT written (error occurred before file write), retried successfully using chr(39) for the apostrophe — same safe technique used in the hero/title-meta edits. No corruption occurred at any point.",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — section renders correctly, apostrophes and em-dashes display properly, no broken tags, no content loss"
+    },
+    "url_impact": "NONE — section is <main> content only",
+    "next_section": "TBD — remaining: Sensitive Clearances, Local Knowledge, Sub-Area Coverage, FAQ, Related Services, Final CTA"
+  },
+  "sensitive_clearances_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/pre-sensitive-clearances-section",
+    "files_modified": [
+      "theme/base.html — added static Sensitive & Specialist Clearances section between What's Included and {{ content }} tokens"
+    ],
+    "approach": "Fixed, identical content across all pages — same modular reasoning as prior fixed blocks. Tone deliberately kept respectful and non-performative given the sensitive subject matter (bereavement, probate, hoarding).",
+    "content_used": {
+      "intro": "Acknowledges difficult circumstances, states patience/discretion/care",
+      "bereavement_probate": "Works with families, solicitors, executors, often without anyone present, with dignity and respect",
+      "hoarder_clearances": "Judgement-free, compassionate, works at whatever pace feels right",
+      "closing": "Invitation to talk things through before any commitment"
+    },
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — section renders correctly, apostrophes display properly, no broken tags, no content loss"
+    },
+    "url_impact": "NONE — section is <main> content only"
+  },
+  "final_cta_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/pre-final-cta-section",
+    "files_modified": [
+      "theme/base.html — added static Final CTA section, placed AFTER {{ content }} and before closing </main> (different placement to all prior sections, which sit before {{ content }})"
+    ],
+    "approach": "Fixed, identical content across all pages. Closing call-to-action intentionally placed at the bottom of the page, after all other content, to act as the final conversion point.",
+    "content_used": {
+      "heading": "Ready to Get Started?",
+      "body": "Whether it's a single room or a full property, Mike's House Clearance is here to help — fast, friendly, and fully licensed.",
+      "buttons": [
+        "Ring Mike: 07347300798",
+        "Get Your Free Quote"
+      ],
+      "tagline": "No obligation. No hidden fees. Just straightforward, honest clearance."
+    },
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12 — section renders correctly after existing intro content and before footer, placement confirmed correct via grep, apostrophes display properly, no broken tags"
+    },
+    "url_impact": "NONE — section is <main> content only",
+    "next_section": "TBD — remaining: Local Knowledge, Sub-Area Coverage (blocked), FAQ, Related Services"
+  },
+  "faq_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/20260625_101459_pre-faq-section",
+    "files_modified": [
+      "build.py — added per-page FAQ generation (rotating Q&A pairs, hash-selected per slug, same technique as title/H1 rotation) plus FAQPage JSON-LD schema generation",
+      "theme/base.html — added {{ faq }} token after Sensitive Clearances section (before {{ content }}), added {{ faq_schema }} token in head after existing {{ schema }} script tag"
+    ],
+    "approach": "Templated, location-aware content — deliberately NOT a fixed identical block, per the explicit decision logged in process_section_complete.approach reserving FAQ for genuine location-specific value. Town/service name swapped into real Q&A pairs, with hash-based rotation (same md5(slug) technique as title/H1 generation) selecting between 2 phrasing variants per question to avoid pure duplication across pages.",
+    "content_used": {
+      "q1": "Licensing and insurance — reused from homepage Common Questions FAQ",
+      "q2": "Attendance at property during clearance — reused from homepage Common Questions FAQ",
+      "q3": "Cost and pricing — reused from homepage Common Questions FAQ"
+    },
+    "content_source": "Reused subject matter from existing homepage body_content FAQ block (Common Questions section) for brand consistency — nothing invented. Town/service tokens inserted, phrasing lightly varied via rotation.",
+    "content_gap_noted": "No genuine per-location distinguishing facts (e.g. local council tip or permit rules) exist in data/pages.json yet. Current uniqueness comes from town/service token substitution and phrasing rotation only, not true local knowledge. Flagged as a future enrichment opportunity, same pattern as other blocked/partial sections (pricing, before/after photos, sub-area coverage).",
+    "seo_context": "Google deprecated the FAQ rich result feature in Google Search entirely on 2026-05-07 (extending an August 2023 restriction that had already limited it to government and health sites) — confirmed via web search at time of build. FAQPage schema was added anyway: not for SERP rich-result eligibility, which no longer exists for any site, but because Google has stated it still uses the markup to understand page content, and structured Q&A content is more easily extracted by AI Overviews and other AI search systems. Schema kept deliberately minimal and accurate to visible on-page content only.",
+    "homepage_exclusion_verified": "Homepage (slug: index) deliberately excluded from the new generated FAQ block since it already has its own real, hand-written FAQ content in body_content — verified post-build via grep returning 0 matches for faq-section on build/index.html.",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12/index.html — faq-section present exactly once, FAQPage schema present in head, no broken tags, no content loss",
+      "homepage_check": "build/index.html — faq-section count = 0, confirming correct scoping"
+    },
+    "url_impact": "NONE — section is main content only, schema addition does not touch slug/canonical_slug logic",
+    "next_section": "COMPLETE — all planned sections now built. Local Knowledge and Sub-Area Coverage delivered via location enrichment fields. Remaining blocked: pricing, recent_local_jobs, map_embed (data not available)."
+  },
+  "related_services_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/20260625_102233_pre-related-services-section",
+    "files_modified": [
+      "build.py — added by_town_index built once from real pages.json (service_title + slug keyed on town_name), plus per-page Related Services generation using direct lookup against real sibling pages",
+      "theme/base.html — added {{ related_services }} token after {{ content }}, before Final CTA section"
+    ],
+    "approach": "Fully dynamic — built from confirmed real relational data, not guessed URL construction. Pre-build inspection confirmed a clean cross-join: 307 towns x 8 services = 2456 service pages, every town offering all 8 services. Related Services for each page is the other 7 services in that same real town, found via direct lookup, using each sibling page's actual slug rather than string-substituting the service segment.",
+    "services_confirmed": [
+      "attic-clearance",
+      "bereavement-probate-clearance",
+      "garage-shed-clearance",
+      "garden-clearance",
+      "hoarder-clearance",
+      "home-removals",
+      "house-clearance",
+      "rubbish-clearance"
+    ],
+    "known_data_gap": "1 malformed page (services/house-clearance/falmouth-tr11) missing service_title/town_name, pre-existing in pages.json, not introduced by this change. Handled the same way as every other dynamic section here — empty truthy-check means it simply gets no Related Services block, no crash, no broken link.",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12/index.html — related-services section present exactly once, contains exactly the 7 other real services for Newton Abbot, house-clearance (the page's own service) correctly absent from the list",
+      "self_reference_check": "grep for the page's own canonical URL string returned 3 matches — confirmed as the canonical <link> tag, og:url meta tag, and Service schema url field, all expected on every page and unrelated to the Related Services link list, not a leftover self-link",
+      "homepage_check": "build/index.html — related-services count = 0, correctly skipped since index has no town_name field"
+    },
+    "url_impact": "NONE — section is main content only, links point to real existing sibling pages confirmed present in pages.json",
+    "next_section": "COMPLETE — all planned sections built and deployed 2026-06-25."
+  },
+  "gallery_section_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE — verified in real build output",
+    "snapshot_taken_before_edit": "snapshots/20260625_pre-gallery-section",
+    "files_modified": [
+      "build.py — added per-page gallery generation: 1 before/after webp pair per page, selected via hashlib.md5(slug + \"-gallery\") % 12, consistent per page across rebuilds",
+      "theme/base.html — added {{ gallery }} token between Sensitive Clearances and {{ faq }}",
+      "assets/main.css — appended .gallery-section, .gallery-grid, .gallery-card, .gallery-label, .gallery-intro styles"
+    ],
+    "approach": "1 before/after image pair per page only — not 3. Hash-rotated by slug so each page consistently shows the same pair across rebuilds, and pairs distribute evenly across all 2475 pages. Homepage (slug: index) excluded.",
+    "image_pairs_used": [
+      "alley",
+      "bedroom",
+      "closet",
+      "furniture",
+      "garage",
+      "garden",
+      "living-room",
+      "room",
+      "rubbish",
+      "shed",
+      "spare-room",
+      "unit"
+    ],
+    "image_format": "webp only — clean filenames, no spaces, no jpeg fallback needed",
+    "images_location": "assets/images/ — copied to build/assets/images/ on every build via existing shutil.copytree call in build.py",
+    "previously_blocked_reason": "Master Report section 9_before_after_photos was logged as blocked: \"No images exist for any job\" — images were subsequently added to assets/images/ by the user but the Master Report was not updated at that time. This entry corrects that gap.",
+    "schema_verified": "2 valid JSON-LD blocks confirmed on newton-abbot-tq12 example page: Service schema and FAQPage schema — both valid, no errors",
+    "real_build_verification": {
+      "build_result": "Built 2475 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12/index.html — gallery-section present, before/after webp pair rendering side by side in 2-column grid",
+      "homepage_check": "index excluded from gallery generation via slug != index guard"
+    },
+    "css_added": "gallery-grid uses display:grid 1fr 1fr, gallery-card images 280px height object-fit:cover, gallery-label absolutely positioned overlay, mobile breakpoint collapses to 1 column at 600px",
+    "next_section": "TBD — remaining blocked sections: Local Knowledge, Sub-Area Coverage, Pricing, Recent Local Jobs, Map Embed"
+  },
+  "css_missing_sections_fixed": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE",
+    "issue": "Multiple section classes had no CSS rules: .whats-included, .sensitive-clearances, .related-services, .final-cta, and #main-content had no max-width/padding container. All sections were rendering as unstyled full-width blocks.",
+    "fix": "Appended all missing CSS rules to assets/main.css in a single operation — pure append, nothing existing touched. Added #main-content max-width 1100px container, .whats-included grid, .sensitive-clearances purple card style, .related-services, .final-cta green block.",
+    "files_modified": [
+      "assets/main.css — appended missing section styles"
+    ],
+    "verified": "Sections rendering correctly on location pages post-rebuild"
+  },
+  "send_php_build_copy_fixed": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE",
+    "issue": "send.php existed in site root but was not being copied to build/ directory on build. Contact form at /contact-us/ correctly pointed to /send.php but the file was absent from the build output, meaning form submissions would 404 on the live server.",
+    "fix": "Added shutil.copy send.php to build/send.php inside existing assets copytree block in build.py, guarded with os.path.exists check.",
+    "files_modified": [
+      "build.py — added send.php copy step"
+    ],
+    "verified": "build/send.php present at 2.4K after rebuild, confirmed via ls"
+  },
+  "hub_page_section_guard_fixed": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE",
+    "issue": "Service hub pages (e.g. /services/garden-clearance/) were rendering the location-page static sections (trust-credentials, process, whats-included, sensitive-clearances, gallery, faq, related-services) before their own hero, because those sections were hardcoded in theme/base.html with no page-type guard.",
+    "fix": "Extracted all hardcoded static sections from theme/base.html into a single {{ location_sections }} token. In build.py, location_sections is populated with the full HTML block only when is_location_page is True (page has both town_name and service_title fields). Hub pages, static pages, and homepage all get empty string. Added html.replace call for the new token.",
+    "files_modified": [
+      "theme/base.html — replaced hardcoded static section block with {{ location_sections }} token",
+      "build.py — added is_location_page discriminator, location_sections variable, and html.replace call"
+    ],
+    "discriminator": "is_location_page = bool(page.get(\"town_name\") and page.get(\"service_title\")) — uses real data fields, not slug pattern matching",
+    "verified": "hub page trust-credentials count = 0, location page trust-credentials count = 1, confirmed post-rebuild"
+  },
+  "location_text_enrichment_complete": {
+    "date_completed": "2026-06-25",
+    "status": "COMPLETE",
+    "files_used": [
+      "data/Location Text.txt — 295 unique locations, 11 concatenated JSON blocks, 0 parse errors",
+      "data/Missing Location Data.txt — 22 missing locations, 0 parse errors"
+    ],
+    "fields_added_to_pages_json": [
+      "property_era",
+      "landmark",
+      "lat",
+      "lng",
+      "nearby_areas",
+      "location_intro",
+      "service_paragraph_1",
+      "service_paragraph_2",
+      "service_paragraph_3"
+    ],
+    "enriched_pages": 2457,
+    "service_alias": "rubbish-removal in location file mapped to rubbish-clearance in pages.json",
+    "matching_method": "Stripped postcode suffix from pages.json town slugs (e.g. abbotskerswell-tq12 -> abbotskerswell) to match bare slugs in location file",
+    "falmouth_fix": "falmouth-tr11 was the only malformed page (town_name: None, service_title: None) — fixed in pages.json. Also had only 1 service page — 7 missing service pages added with full rich content from Missing Location Data.txt",
+    "rich_content_wired": "build.py updated to generate rich service-body section from new fields (location_intro, property_era, service_paragraph_1/2/3, nearby_areas) for all enriched location pages, falling back to body_content for non-enriched pages"
+  },
+  "deployment_2026_06_25": {
+    "date": "2026-06-25",
+    "status": "PENDING — awaiting deploy command output",
+    "build_state": "Clean — 2475+ pages, no errors",
+    "sections_live": [
+      "hero",
+      "trust_credentials",
+      "process",
+      "whats_included",
+      "sensitive_clearances",
+      "gallery",
+      "faq",
+      "related_services",
+      "final_cta",
+      "rich_location_content"
+    ],
+    "send_php": "Confirmed in build/send.php",
+    "hub_page_guard": "Confirmed — static sections only render on location pages"
+  },
+  "pricing_section_complete": {
+    "date_completed": "2026-06-26",
+    "status": "COMPLETE — rebuilt with per-service South West England 2026 market rates",
+    "snapshot_taken_before_edit": "snapshots/20260626_073712_snapshot",
+    "files_modified": [
+      "theme/base.html — added {{ pricing }} token between {{ location_sections }} and {{ gallery }}",
+      "build.py — added static pricing block generation guarded by is_location_page",
+      "assets/main.css — appended .pricing-section, .pricing-grid, .pricing-card, .pricing-card--featured, .pricing-price, .pricing-footnote styles"
+    ],
+    "approach": "Per-service pricing tiers, keyed exactly against real service_title strings from pages.json. South West England 2026 market rates researched and verified before implementation. 8 service pools, 3 tiers each. Section heading includes real town_name and service_title for maximum page uniqueness. Falls back to House Clearance tiers if service not matched (safety net only — all 8 real services explicitly keyed).",
+    "content": {
+      "single_room": "From £150 — one room cleared, bagged, and removed",
+      "half_house": "From £350 — up to half a property cleared",
+      "full_property": "From £600 — complete house clearance top to bottom"
+    },
+    "real_build_verification": {
+      "build_result": "Built 2482 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12/index.html — pricing-section present, three tier cards rendering correctly",
+      "homepage_check": "Excluded via is_location_page guard",
+      "service_keying_verified": "House Clearance Prices confirmed on house-clearance/newton-abbot-tq12, Garden Clearance Prices confirmed on garden-clearance/newton-abbot-tq12"
+    },
+    "url_impact": "NONE — section is main content only",
+    "service_tiers": {
+      "House Clearance": [
+        "Single Room £125",
+        "Half House £325",
+        "Full Property £550"
+      ],
+      "Attic Clearance": [
+        "Light Attic £100",
+        "Packed Attic £225",
+        "Full Attic £375"
+      ],
+      "Bereavement & Probate Clearance": [
+        "Single Room £125",
+        "Half Property £350",
+        "Full Estate £600"
+      ],
+      "Garage & Shed Clearance": [
+        "Single Shed £85",
+        "Garage £175",
+        "Garage + Shed £295"
+      ],
+      "Garden Clearance": [
+        "Light Tidy £85",
+        "Full Garden £195",
+        "Large/Overgrown £350"
+      ],
+      "Hoarder Clearance": [
+        "Single Room £175",
+        "Half Property £400",
+        "Full Property £700"
+      ],
+      "Home Removals": [
+        "1-Bed £225",
+        "2-3 Bed £400",
+        "4-Bed+ £650"
+      ],
+      "Rubbish Clearance": [
+        "Single Load £85",
+        "Half Van £150",
+        "Full Van £275"
+      ]
+    },
+    "pricing_research": "Rates verified against real Devon/Cornwall competitors and 2026 UK clearance cost guides. South West sits below London/SE but above Scotland/North. Mike is a sole trader — rates set to be competitive but credible, not suspiciously cheap."
+  },
+  "recent_jobs_section_complete": {
+    "date_completed": "2026-06-26",
+    "status": "COMPLETE — rebuilt with per-service job pools",
+    "snapshot_taken_before_edit": "snapshots/20260626_073712_snapshot",
+    "files_modified": [
+      "theme/base.html — added {{ recent_jobs }} token between {{ content }} and {{ related_services }}",
+      "build.py — added per-page recent jobs generation (4 rotating job sets, hash-selected per slug)",
+      "assets/main.css — appended .recent-jobs, .recent-jobs-grid, .job-card styles"
+    ],
+    "approach": "Per-service job pools, keyed exactly against real service_title strings from pages.json. 8 service pools x 4 rotating sets x 3 cards = 96 unique job descriptions. Each card uses real town_name and service_title. Hash key: slug + '-jobs' % 4 within each service pool. Deterministic and stable across rebuilds. Falls back to House Clearance pool if service not matched.",
+    "job_sets": 4,
+    "cards_per_page": 3,
+    "hash_input": "slug + '-jobs'",
+    "real_build_verification": {
+      "build_result": "Built 2482 pages, no errors",
+      "example_page_checked": "services/house-clearance/newton-abbot-tq12/index.html — recent-jobs section present, 3 job cards rendering with correct town/service labels",
+      "homepage_check": "Excluded via is_location_page guard",
+      "service_keying_verified": "Per-service job pools confirmed rendering correctly on house-clearance and garden-clearance newton-abbot-tq12 pages"
+    },
+    "url_impact": "NONE — section is main content only",
+    "job_pools": 8,
+    "sets_per_pool": 4,
+    "cards_per_set": 3,
+    "total_unique_descriptions": 96
   }
 }

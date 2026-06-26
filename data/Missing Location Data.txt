@@ -1,0 +1,1063 @@
+{
+  "batch": 11,
+  "start_index": 395,
+  "end_index": 416,
+  "locations": [
+    {
+      "slug": "falmouth",
+      "name": "Falmouth",
+      "postcode": null,
+      "property_era": "Georgian townhouses, Victorian villas, and modern apartments",
+      "landmark": "the harbour",
+      "lat": 50.1557,
+      "lng": -5.0721,
+      "nearby_areas": ["Penryn", "Truro", "Helston"],
+      "intro_text": "Falmouth is a bustling harbour town with Georgian townhouses, Victorian villas, and modern waterfront apartments. The older streets climb steeply from the docks, with narrow lanes and limited parking, while the newer developments are more accessible. Mike's House Clearance brings a Sprinter for the historic core and a Luton for the modern flats.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Falmouth ranges from elegant Georgian townhouses with steep stairs to modern apartments with lift access—our team handles both. We cover the whole Penryn and Truro area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Falmouth can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Falmouth's historic streets need a Sprinter, while the new marina apartments can take a Luton—our fleet is flexible. We also serve Penryn, Truro, and Helston, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Falmouth often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Falmouth. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Falmouth are often filled with boating gear and garden tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Falmouth's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Falmouth. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Falmouth provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Falmouth, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Falmouth, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "st-dominick",
+      "name": "St Dominick",
+      "postcode": null,
+      "property_era": "Granite cottages and former mining houses",
+      "landmark": "the church",
+      "lat": 50.4847,
+      "lng": -4.2334,
+      "nearby_areas": ["Saltash", "Callington", "Liskeard"],
+      "intro_text": "St Dominick is a quiet village on the edge of the Tamar Valley, with granite cottages and former mining houses along narrow lanes that wind through the countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for St Dominick, staging waste at the village hall.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in St Dominick often involves granite cottages with low ceilings—our team is used to these conditions. We cover the whole Saltash and Callington area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in St Dominick can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "St Dominick's narrow lanes mean we work from the village hall—it's the most practical approach. We also serve Saltash, Callington, and Liskeard, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the hall, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in St Dominick often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in St Dominick. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in St Dominick are often filled with garden tools and Tamar Valley clutter—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in St Dominick's older properties are often dusty and cramped—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a careful relay system, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in St Dominick. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in St Dominick provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to St Dominick, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in St Dominick, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "st-erme",
+      "name": "St Erme",
+      "postcode": null,
+      "property_era": "Granite cottages and village houses",
+      "landmark": "the church",
+      "lat": 50.3097,
+      "lng": -5.0333,
+      "nearby_areas": ["Truro", "St Austell", "Probus"],
+      "intro_text": "St Erme is a small village near Truro, with granite cottages and village houses along narrow lanes that wind through the countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for St Erme, staging waste at the village green.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in St Erme often involves granite cottages with low ceilings—our team is used to these conditions. We cover the whole Truro and St Austell area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in St Erme can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "St Erme's narrow lanes mean we work from the green—it's the only practical way. We also serve Truro, St Austell, and Probus, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the green, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in St Erme often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in St Erme. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in St Erme are often filled with gardening tools and village clutter—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in St Erme's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in St Erme. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in St Erme provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to St Erme, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in St Erme, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "st-germans",
+      "name": "St Germans",
+      "postcode": null,
+      "property_era": "Granite cottages and former estate houses",
+      "landmark": "the church",
+      "lat": 50.3866,
+      "lng": -4.3098,
+      "nearby_areas": ["Saltash", "Liskeard", "Torpoint"],
+      "intro_text": "St Germans is a village on the River Tamar, with granite cottages, former estate houses, and a historic church along narrow lanes. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for St Germans, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in St Germans often involves estate houses with outbuildings and granite cottages—our team handles both. We cover the whole Saltash and Liskeard area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in St Germans can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "St Germans's narrow lanes mean we work from the car park—it's the most practical approach. We also serve Saltash, Liskeard, and Torpoint, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in St Germans often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in St Germans. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in St Germans are often filled with riverside gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in St Germans's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in St Germans. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in St Germans provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to St Germans, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in St Germans, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "st-just",
+      "name": "St Just",
+      "postcode": null,
+      "property_era": "Granite mining cottages and historic townhouses",
+      "landmark": "the town centre",
+      "lat": 50.1246,
+      "lng": -5.6821,
+      "nearby_areas": ["Penzance", "Sennen", "Pendeen"],
+      "intro_text": "St Just is a historic mining town on the Land's End peninsula, with granite cottages and townhouses along narrow streets that climb the hill. The exposed coastal location means the weather can be challenging, and access is often difficult. Mike's House Clearance uses a rugged Transit for St Just, equipped for all conditions.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in St Just often involves granite cottages with low beams and steep stairs—our team is used to these conditions. We cover the whole Penzance and Sennen area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in St Just can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "St Just's exposed coastal location means we come prepared for all weather—our team and vehicles are ready. We also serve Penzance, Sennen, and Pendeen, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote—we'll assess the access and give you a clear fixed price."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in St Just often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in St Just. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in St Just are often packed with mining relics and garden tools—we clear them with care and efficiency.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in St Just's granite cottages are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in St Just. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in St Just provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to St Just, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in St Just, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "starcross",
+      "name": "Starcross",
+      "postcode": null,
+      "property_era": "Devon stone cottages and Victorian villas",
+      "landmark": "the estuary",
+      "lat": 50.6295,
+      "lng": -3.4502,
+      "nearby_areas": ["Exmouth", "Dawlish", "Topsham"],
+      "intro_text": "Starcross is a village on the Exe estuary, with stone cottages and Victorian villas along narrow lanes that wind down to the water. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Starcross, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Starcross often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Exmouth and Dawlish area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Starcross can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Starcross's narrow lanes mean we work from the car park—it's the only practical way. We also serve Exmouth, Dawlish, and Topsham, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Starcross often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Starcross. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Starcross are often filled with estuary gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Starcross's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Starcross. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Starcross provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Starcross, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Starcross, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "sticker",
+      "name": "Sticker",
+      "postcode": null,
+      "property_era": "Former mining cottages and granite terraces",
+      "landmark": "the village centre",
+      "lat": 50.3155,
+      "lng": -4.8377,
+      "nearby_areas": ["St Austell", "Grampound", "Mevagissey"],
+      "intro_text": "Sticker is a former mining village with granite cottages and terraced houses along narrow lanes that wind through the countryside. The older properties have steep stairs, low ceilings, and limited vehicle access. Mike's House Clearance uses a short-wheelbase Transit for Sticker, with crews carrying waste from terraces where the van cannot park directly outside.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Sticker often involves granite cottages with low doorways—our team is used to these conditions. We cover the whole St Austell and Grampound area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Sticker can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Sticker's tight corners mean our Transit can't always park directly outside—we carry waste from the property to the van. We also serve St Austell, Grampound, and Mevagissey, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the van, separating recyclables and general rubbish as they load. This keeps disposal costs transparent and efficient.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote—we'll assess the access and give you a clear fixed price."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Sticker often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Sticker. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Sticker are often packed with mining relics and garden tools—we clear them with care and efficiency.",
+          "paragraph_2": "We empty sheds, dismantle fixed structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Sticker's older properties are often cramped—our attic clearance team works carefully in these tight spaces.",
+          "paragraph_2": "We use dust sheets and hand-over-hand item transfer. Sorting happens as we go, with items set aside for donation or recycling.",
+          "paragraph_3": "Free, no-obligation quotes across Sticker. Call Mike on 07347300798 to arrange a site visit and get a fixed price for your loft clearance."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Sticker provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Sticker, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Sticker, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "stithians",
+      "name": "Stithians",
+      "postcode": null,
+      "property_era": "Granite cottages and former farmhouses",
+      "landmark": "the village centre",
+      "lat": 50.1892,
+      "lng": -5.1751,
+      "nearby_areas": ["Falmouth", "Redruth", "Helston"],
+      "intro_text": "Stithians is a village between Falmouth and Redruth, with granite cottages and former farmhouses along narrow lanes that wind through the countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Stithians, staging waste at the village hall.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Stithians often involves granite cottages with low ceilings—our team is used to these conditions. We cover the whole Falmouth and Redruth area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Stithians can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Stithians's narrow lanes mean we work from the village hall—it's the most practical approach. We also serve Falmouth, Redruth, and Helston, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the hall, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Stithians often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Stithians. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Stithians are often filled with farming remnants and garden tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Stithians's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Stithians. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Stithians provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Stithians, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Stithians, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "stoke-fleming",
+      "name": "Stoke Fleming",
+      "postcode": null,
+      "property_era": "Devon stone cottages and coastal houses",
+      "landmark": "the church",
+      "lat": 50.3244,
+      "lng": -3.5944,
+      "nearby_areas": ["Dartmouth", "Kingsbridge", "Torcross"],
+      "intro_text": "Stoke Fleming is a coastal village near Dartmouth, with Devon stone cottages and houses along narrow lanes that wind down to the sea. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Stoke Fleming, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Stoke Fleming often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Dartmouth and Kingsbridge area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Stoke Fleming can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Stoke Fleming's narrow lanes mean we work from the car park—it's the only practical way. We also serve Dartmouth, Kingsbridge, and Torcross, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Stoke Fleming often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Stoke Fleming. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Stoke Fleming are often filled with coastal gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Stoke Fleming's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Stoke Fleming. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Stoke Fleming provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Stoke Fleming, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Stoke Fleming, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "stoke-gabriel",
+      "name": "Stoke Gabriel",
+      "postcode": null,
+      "property_era": "Devon stone cottages and riverside houses",
+      "landmark": "the church",
+      "lat": 50.4055,
+      "lng": -3.6221,
+      "nearby_areas": ["Totnes", "Paignton", "Dartmouth"],
+      "intro_text": "Stoke Gabriel is a picturesque riverside village on the Dart estuary, with stone cottages and houses along narrow lanes that wind down to the water. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Stoke Gabriel, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Stoke Gabriel often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Totnes and Paignton area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Stoke Gabriel can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Stoke Gabriel's narrow lanes mean we work from the car park—it's the most practical approach. We also serve Totnes, Paignton, and Dartmouth, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Stoke Gabriel often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Stoke Gabriel. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Stoke Gabriel are often filled with riverside gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Stoke Gabriel's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Stoke Gabriel. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Stoke Gabriel provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Stoke Gabriel, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Stoke Gabriel, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "street",
+      "name": "Street",
+      "postcode": null,
+      "property_era": "Victorian terraces, modern housing, and former factory buildings",
+      "landmark": "the town centre",
+      "lat": 51.1261,
+      "lng": -2.7365,
+      "nearby_areas": ["Glastonbury", "Wells", "Somerton"],
+      "intro_text": "Street is a town in Somerset, famous for its shoe-making heritage, with a mix of Victorian terraces, modern housing, and converted factory buildings. The older streets have limited parking, while the newer developments are more accessible. Mike's House Clearance uses a Sprinter for the older areas and a Luton for the modern estates.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Street might be a Victorian terrace or a modern home—our team handles both. We cover the whole Glastonbury and Wells area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Street can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Street's older streets need a Sprinter, while the estates can take a Luton—our fleet is flexible. We also serve Glastonbury, Wells, and Somerton, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Street often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Street. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Street are often filled with gardening tools and household items—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Street's older properties are often spacious—our attic clearance team is equipped for these spaces.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Street. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Street provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Street, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Street, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "summercourt",
+      "name": "Summercourt",
+      "postcode": null,
+      "property_era": "Former farmhouses and modern bungalows",
+      "landmark": "the village centre",
+      "lat": 50.3804,
+      "lng": -4.9609,
+      "nearby_areas": ["Newquay", "St Columb Major", "Truro"],
+      "intro_text": "Summercourt is a village in mid-Cornwall, with a mix of former farmhouses and modern bungalows along narrow village streets. Older properties have narrow doorways and steep staircases, while newer homes have better access. Mike's House Clearance uses a Transit for the farmhouses and a Luton for the bungalows.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Summercourt might be an old farmhouse with outbuildings or a modern bungalow—our team adapts. We cover the whole Newquay and St Columb Major area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Summercourt can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Summercourt's older farmhouses need a Transit, while the bungalows can take a Luton—our fleet covers both. We also serve Newquay, St Columb Major, and Truro, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Summercourt often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Summercourt. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Summercourt are often filled with farming tools and garden equipment—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Summercourt's older properties are often spacious—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Summercourt. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Summercourt provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Summercourt, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Summercourt, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "swimbridge",
+      "name": "Swimbridge",
+      "postcode": null,
+      "property_era": "Devon stone cottages and village houses",
+      "landmark": "the village centre",
+      "lat": 51.0488,
+      "lng": -4.0187,
+      "nearby_areas": ["Barnstaple", "Landkey", "Bishops Tawton"],
+      "intro_text": "Swimbridge is a village in North Devon, with stone cottages and village houses along narrow lanes that wind through the rolling countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Swimbridge, staging waste at the village hall.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Swimbridge often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Barnstaple and Landkey area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Swimbridge can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Swimbridge's narrow lanes mean we work from the village hall—it's the most practical approach. We also serve Barnstaple, Landkey, and Bishops Tawton, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the hall, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Swimbridge often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Swimbridge. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Swimbridge are often filled with farming and gardening items—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Swimbridge's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Swimbridge. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Swimbridge provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Swimbridge, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Swimbridge, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "taunton",
+      "name": "Taunton",
+      "postcode": null,
+      "property_era": "Georgian townhouses, Victorian villas, and modern estates",
+      "landmark": "the town centre",
+      "lat": 51.0146,
+      "lng": -3.1029,
+      "nearby_areas": ["Wellington", "Bridgwater", "Ilminster"],
+      "intro_text": "Taunton is the county town of Somerset, with a mix of Georgian townhouses, Victorian villas, and extensive modern estates. The older parts of town have narrow streets and limited parking, while the newer developments are more accessible. Mike's House Clearance operates a mixed fleet across Taunton, matching the vehicle to the property.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Taunton ranges from Georgian townhouses with steep stairs to modern homes with integral garages—our team handles all types. We cover the whole Wellington and Bridgwater area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Taunton can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Taunton's older streets need a Sprinter, while the estates can take a Luton—our fleet is flexible. We also serve Wellington, Bridgwater, and Ilminster, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Taunton often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Taunton. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Taunton are often filled with gardening tools and household items—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Taunton's older properties are often spacious—our attic clearance team is equipped for these spaces.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Taunton. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Taunton provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Taunton, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Taunton, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "tavistock",
+      "name": "Tavistock",
+      "postcode": null,
+      "property_era": "Granite cottages and Georgian townhouses",
+      "landmark": "the town square",
+      "lat": 50.5491,
+      "lng": -4.1421,
+      "nearby_areas": ["Yelverton", "Okehampton", "Launceston"],
+      "intro_text": "Tavistock is a historic market town on the edge of Dartmoor, with granite cottages, Georgian townhouses, and modern estates. The older streets have limited parking, while the newer areas are more accessible. Mike's House Clearance uses a Sprinter for the town centre and a Luton for the estates.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Tavistock might be a Georgian townhouse with steep stairs or a modern estate home—our team handles both. We cover the whole Yelverton and Okehampton area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Tavistock can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Tavistock's town centre needs a Sprinter—the Luton is for the estates on the outskirts. We also serve Yelverton, Okehampton, and Launceston, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Tavistock often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Tavistock. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Tavistock are often filled with moorland walking gear and garden tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Tavistock's older properties are often spacious—our attic clearance team is equipped for these spaces.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Tavistock. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Tavistock provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Tavistock, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Tavistock, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "tedburn-st-mary",
+      "name": "Tedburn St Mary",
+      "postcode": null,
+      "property_era": "Devon stone cottages and village houses",
+      "landmark": "the church",
+      "lat": 50.7352,
+      "lng": -3.6881,
+      "nearby_areas": ["Exeter", "Crediton", "Bovey Tracey"],
+      "intro_text": "Tedburn St Mary is a village on the edge of Dartmoor, with stone cottages and village houses along narrow lanes that wind through the countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Tedburn St Mary, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Tedburn St Mary often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Exeter and Crediton area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Tedburn St Mary can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Tedburn St Mary's narrow lanes mean we work from the car park—it's the most practical approach. We also serve Exeter, Crediton, and Bovey Tracey, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Tedburn St Mary often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Tedburn St Mary. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Tedburn St Mary are often filled with farming and gardening items—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Tedburn St Mary's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Tedburn St Mary. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Tedburn St Mary provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Tedburn St Mary, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Tedburn St Mary, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "teignmouth",
+      "name": "Teignmouth",
+      "postcode": null,
+      "property_era": "Regency villas and Victorian terraces",
+      "landmark": "the seafront",
+      "lat": 50.5483,
+      "lng": -3.4935,
+      "nearby_areas": ["Dawlish", "Newton Abbot", "Shaldon"],
+      "intro_text": "Teignmouth is a seaside town with elegant Regency villas, Victorian terraces, and a bustling seafront. The older streets have limited parking, while the newer areas are more accessible. Mike's House Clearance uses a Sprinter for the town centre and a Luton for the modern estates.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Teignmouth might be a Regency villa or a modern home—our team handles both. We cover the whole Dawlish and Newton Abbot area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Teignmouth can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Teignmouth's older streets need a Sprinter, while the estates can take a Luton—our fleet is flexible. We also serve Dawlish, Newton Abbot, and Shaldon, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient processing.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Teignmouth often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Teignmouth. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Teignmouth are often filled with beach gear and garden tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Teignmouth's Regency villas are often spacious—our attic clearance team is equipped for these spaces.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Teignmouth. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Teignmouth provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Teignmouth, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Teignmouth, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "thorverton",
+      "name": "Thorverton",
+      "postcode": null,
+      "property_era": "Devon stone cottages and village houses",
+      "landmark": "the village centre",
+      "lat": 50.8008,
+      "lng": -3.5229,
+      "nearby_areas": ["Exeter", "Crediton", "Tiverton"],
+      "intro_text": "Thorverton is a village on the River Exe, with stone cottages and village houses along narrow lanes that wind through the countryside. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Thorverton, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Thorverton often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Exeter and Crediton area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Thorverton can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Thorverton's narrow lanes mean we work from the car park—it's the most practical approach. We also serve Exeter, Crediton, and Tiverton, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Thorverton often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Thorverton. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Thorverton are often filled with riverside gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Thorverton's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Thorverton. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Thorverton provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Thorverton, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Thorverton, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "threemilestone",
+      "name": "Threemilestone",
+      "postcode": null,
+      "property_era": "Modern estates and suburban housing",
+      "landmark": "the village centre",
+      "lat": 50.2701,
+      "lng": -5.0974,
+      "nearby_areas": ["Truro", "Redruth", "Chacewater"],
+      "intro_text": "Threemilestone is a suburban village on the outskirts of Truro, with modern estates and suburban housing along wider, accessible roads. The properties are mostly contemporary with good parking and straightforward clearance. Mike's House Clearance brings a Luton van for these larger modern homes.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Threemilestone involves modern homes with good access—our team works quickly and efficiently. We cover the whole Truro and Redruth area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Threemilestone can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Threemilestone's modern estates are easy to access—our Luton vans can park right outside. We also serve Truro, Redruth, and Chacewater, where access can be equally straightforward.",
+          "paragraph_2": "Our crew sorts waste at the roadside, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Threemilestone often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Threemilestone. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Threemilestone are often filled with gardening tools and household items—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Threemilestone's modern homes are often boarded and easy to access—our attic clearance team handles them quickly.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Threemilestone. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Threemilestone provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Threemilestone, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Threemilestone, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "thurlestone",
+      "name": "Thurlestone",
+      "postcode": null,
+      "property_era": "Devon stone cottages and coastal houses",
+      "landmark": "the village centre",
+      "lat": 50.2737,
+      "lng": -3.8582,
+      "nearby_areas": ["Kingsbridge", "Salcombe", "Modbury"],
+      "intro_text": "Thurlestone is a coastal village in the South Hams, with stone cottages and houses along narrow lanes that wind down to the sea. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Thurlestone, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Thurlestone often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Kingsbridge and Salcombe area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Thurlestone can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Thurlestone's narrow lanes mean we work from the car park—it's the only practical way. We also serve Kingsbridge, Salcombe, and Modbury, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Thurlestone often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Thurlestone. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Thurlestone are often filled with coastal gear and gardening tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Thurlestone's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Thurlestone. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Thurlestone provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Thurlestone, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Thurlestone, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "tintagel",
+      "name": "Tintagel",
+      "postcode": null,
+      "property_era": "Granite cottages and coastal houses",
+      "landmark": "the castle",
+      "lat": 50.6637,
+      "lng": -4.7555,
+      "nearby_areas": ["Boscastle", "Camelford", "Bude"],
+      "intro_text": "Tintagel is a coastal village famous for its castle, with granite cottages and houses along narrow streets that wind down to the sea. The exposed location and steep approaches make vehicle access a challenge. Mike's House Clearance uses a compact van for Tintagel, staging waste at the village car park.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Tintagel often involves granite cottages with low ceilings—our team is used to these conditions. We cover the whole Boscastle and Camelford area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Tintagel can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Tintagel's narrow streets and summer traffic mean we work from the car park—it's the most practical way. We also serve Boscastle, Camelford, and Bude, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the car park, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Tintagel often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Tintagel. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Tintagel are often filled with coastal walking gear and garden tools—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Tintagel's granite cottages are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Tintagel. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Tintagel provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Tintagel, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Tintagel, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    },
+    {
+      "slug": "tipton-st-john",
+      "name": "Tipton St John",
+      "postcode": null,
+      "property_era": "Devon stone cottages and village houses",
+      "landmark": "the village centre",
+      "lat": 50.7242,
+      "lng": -3.2667,
+      "nearby_areas": ["Sidmouth", "Ottery St Mary", "Newton Poppleford"],
+      "intro_text": "Tipton St John is a village in East Devon, with stone cottages and village houses along narrow lanes that wind through the Otter Valley. Many properties have limited vehicle access and restricted parking. Mike's House Clearance uses a compact van for Tipton St John, staging waste at the village hall.",
+      "services": {
+        "house-clearance": {
+          "paragraph_1": "House clearance in Tipton St John often involves stone cottages with low ceilings—our team is used to these conditions. We cover the whole Sidmouth and Ottery St Mary area, handling everything from probate clearances to full house empties.",
+          "paragraph_2": "We clear systematically, setting aside items for donation and recycling. Full waste transfer notes are provided, and valuable items are documented for probate if needed.",
+          "paragraph_3": "Most house clearances in Tipton St John can be booked within 48 hours. Call Mike on 07347300798 to check availability and get a fixed-price quote."
+        },
+        "rubbish-removal": {
+          "paragraph_1": "Tipton St John's narrow lanes mean we work from the village hall—it's the most practical approach. We also serve Sidmouth, Ottery St Mary, and Newton Poppleford, where access can be equally challenging.",
+          "paragraph_2": "Our crew sorts waste at the hall, separating recyclables and general rubbish for efficient disposal.",
+          "paragraph_3": "Call Mike on 07347300798 for a free, no-obligation quote."
+        },
+        "garden-clearance": {
+          "paragraph_1": "The gardens in Tipton St John often need clearing—overgrown hedges, soil, and green waste that has accumulated over years. Our garden clearance team is ready to help.",
+          "paragraph_2": "We remove everything from hedge trimmings to soil and green waste, leaving your garden clear and tidy. All green waste is composted or recycled responsibly.",
+          "paragraph_3": "Free, no-obligation quotes for garden clearance in Tipton St John. Call Mike on 07347300798 to arrange a site visit."
+        },
+        "garage-shed-clearance": {
+          "paragraph_1": "Sheds in Tipton St John are often filled with gardening and riverside gear—we clear them thoroughly and efficiently.",
+          "paragraph_2": "We empty sheds, dismantle structures, and sort items for recycling or disposal. The space is left clean and ready for a new use.",
+          "paragraph_3": "We work at your pace—call Mike on 07347300798."
+        },
+        "attic-clearance": {
+          "paragraph_1": "Lofts in Tipton St John's older properties are often spacious but dusty—our attic clearance team handles them carefully.",
+          "paragraph_2": "We use dust sheets and a relay system to bring items down, sorting as we go. Reusable items are set aside for donation.",
+          "paragraph_3": "Free quotes for loft clearance in Tipton St John. Call Mike on 07347300798."
+        },
+        "hoarder-clearance": {
+          "paragraph_1": "We understand that hoarding situations can be overwhelming for individuals and families. Our hoarder clearance service in Tipton St John provides discreet, compassionate support for extreme clutter situations.",
+          "paragraph_2": "We work methodically and respectfully, preserving important items while clearing the property systematically. Our team is trained to handle these situations with patience and understanding.",
+          "paragraph_3": "We'll come to Tipton St John, assess the situation, and give you a clear fixed price. Call Mike on 07347300798 to discuss the best approach."
+        },
+        "bereavement-probate-clearance": {
+          "paragraph_1": "When a loved one passes away in Tipton St John, we provide compassionate probate clearance services for executors and family members, easing the burden during a difficult time.",
+          "paragraph_2": "We work with solicitors and estate agents to ensure the clearance is handled professionally, with full documentation and waste transfer notes provided. Items of value are photographed and logged.",
+          "paragraph_3": "We'll visit the property, assess the job, and give you a clear fixed price—no obligation. Call Mike on 07347300798 for a confidential conversation."
+        }
+      }
+    }
+  ]
+}
