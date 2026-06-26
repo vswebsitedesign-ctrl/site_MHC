@@ -3866,5 +3866,27 @@
     "sets_per_pool": 4,
     "cards_per_set": 3,
     "total_unique_descriptions": 96
+  },
+  "deployment_2026_06_26": {
+    "date": "2026-06-26",
+    "status": "COMPLETE — live on server",
+    "build_state": "Clean — 2482 pages, no errors",
+    "correct_deploy_command": "rsync -avz -e \"ssh -i ~/.ssh/github_actions_mhc\" build/ mikes-house-clearance_wvlupgekl3@217.154.33.12:/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
+    "server_path_confirmed": "/var/www/vhosts/mikes-house-clearance.co.uk/httpdocs/",
+    "note": "Master Report previously had /path/to/httpdocs/ as a placeholder — corrected here. Always use the path above for all future deploys.",
+    "sections_live": [
+      "hero",
+      "trust_credentials",
+      "process",
+      "whats_included",
+      "sensitive_clearances",
+      "pricing",
+      "gallery",
+      "faq",
+      "content",
+      "recent_jobs",
+      "related_services",
+      "final_cta"
+    ]
   }
 }
